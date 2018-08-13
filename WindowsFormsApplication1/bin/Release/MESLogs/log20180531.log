@@ -1,0 +1,77 @@
+[Header]
+[Footer]
+[Header]
+[13644] INFO ****** Open Connection
+[13644] INFO ****** Start: 2018/05/31 20:42:23.458, End: 2018/05/31 20:42:23.904, Cost: 446.558
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ51'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.364, End: 2018/05/31 20:42:24.376, Cost: 12.057
+[13644] INFO 
+[13644] INFO ****** Open Connection
+[13644] INFO ****** Start: 2018/05/31 20:42:24.384, End: 2018/05/31 20:42:24.493, Cost: 108.777
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ51'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.512, End: 2018/05/31 20:42:24.521, Cost: 9.024
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : select resseq, opcode, muser, rescode, mtime, eattribute1, mdate from TBLop2RES where RESCODE ='ZZ51'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.532, End: 2018/05/31 20:42:24.540, Cost: 8.021
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : select TBLOP.muser, TBLOP.mdate, TBLOP.opcontrol, TBLOP.eattribute1, TBLOP.mtime, TBLOP.opcollection, TBLOP.opdesc, TBLOP.opcode from TBLOP,TBLROUTE2OP where TBLOP.OPCODE = TBLROUTE2OP.OPCODE and TBLROUTE2OP.ROUTECODE='SXT-I8-01' order by TBLROUTE2OP.OPSEQ
+[13644] INFO ****** Start: 2018/05/31 20:42:24.543, End: 2018/05/31 20:42:24.553, Cost: 10.026
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ51'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.555, End: 2018/05/31 20:42:24.564, Cost: 9.024
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ51'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.620, End: 2018/05/31 20:42:24.629, Cost: 8.795
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.632, End: 2018/05/31 20:42:24.639, Cost: 7.025
+[13644] INFO 
+[13644] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : UPDATE TBLRES SET segcode='5F',jigcontrol='N',orgid='1',muser='ADMIN',computermac='',computername='',crewcode='',resdesc='成品对焦',sscode='5F-ZZ03',resgroup='',mtime='204228',computerip='',restype='ResourceType_Human',shifttypecode='DAY',eattribute1='',reworkcode='',dctcode='',mdate='20180531',reworkroutecode='SXT-I8-01' WHERE rescode='ZZ51'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.691, End: 2018/05/31 20:42:24.744, Cost: 53.138
+[13644] INFO 
+[13644] INFO ****** Open Connection
+[13644] INFO ****** Start: 2018/05/31 20:42:24.746, End: 2018/05/31 20:42:24.828, Cost: 82.217
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.828, End: 2018/05/31 20:42:24.835, Cost: 7.019
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='ZZ51'                                 group by rescode                             ) 
+[13644] INFO ****** Start: 2018/05/31 20:42:24.837, End: 2018/05/31 20:42:24.863, Cost: 25.692
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : SELECT computermac,logindate,computerip,mdate,releaseuser,jigcode,serial,muser,logintime,mtime,releasedate,releasetime,rescode,computername,loginuser FROM TBLRESRELEASELOG WHERE serial='6520'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.865, End: 2018/05/31 20:42:24.875, Cost: 10.164
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.896, End: 2018/05/31 20:42:24.904, Cost: 8.106
+[13644] INFO 
+[13644] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='30:9C:23:53:CF:24',logindate='20180531',computerip='192.168.1.167',mdate='20180531',jigcode='',releaseuser='DLL',muser='DLL',logintime='204209',mtime='204228',releasedate='20180531',releasetime='204228',rescode='ZZ51',computername='LENOVO-PC',loginuser='LILXL' WHERE serial='6520'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.907, End: 2018/05/31 20:42:24.928, Cost: 20.878
+[13644] INFO 
+[13644] INFO ****** Open Connection
+[13644] INFO ****** Start: 2018/05/31 20:42:24.961, End: 2018/05/31 20:42:24.962, Cost: 1.002
+[13644] INFO 
+[13644] INFO ****** Execute SQL
+[13644] INFO ****** Text : select * from tbljig where rescode='ZZ51'
+[13644] INFO ****** Start: 2018/05/31 20:42:24.962, End: 2018/05/31 20:42:24.971, Cost: 9.025
+[13644] INFO 
+[13644] INFO ****** Close Connection
+[13644] INFO ****** Start: 2018/05/31 20:42:24.974, End: 2018/05/31 20:42:24.999, Cost: 25.066
+[13644] INFO 
+[Footer]

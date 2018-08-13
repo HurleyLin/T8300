@@ -1,12 +1,3 @@
-!.gitignore
-*.aps
-*.suo
-*.log
-*.ncb
-*.user
-debug/
-release/
-Debug/
-Release/
 
-bin/
+
+/bin/*

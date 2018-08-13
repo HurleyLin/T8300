@@ -1,0 +1,69 @@
+[Header]
+[Footer]
+[Header]
+[8548] INFO ****** Open Connection
+[8548] INFO ****** Start: 2018/05/05 14:01:42.538, End: 2018/05/05 14:01:42.699, Cost: 160.985
+[8548] INFO 
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ51'
+[8548] INFO ****** Start: 2018/05/05 14:01:42.837, End: 2018/05/05 14:01:42.848, Cost: 11.026
+[8548] INFO 
+[8548] INFO ****** Open Connection
+[8548] INFO ****** Start: 2018/05/05 14:01:42.856, End: 2018/05/05 14:01:42.949, Cost: 93.085
+[8548] INFO 
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ51'
+[8548] INFO ****** Start: 2018/05/05 14:01:42.950, End: 2018/05/05 14:01:42.960, Cost: 10.056
+[8548] INFO 
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ51'
+[8548] INFO ****** Start: 2018/05/05 14:01:42.967, End: 2018/05/05 14:01:42.976, Cost: 9.165
+[8548] INFO 
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ51'
+[8548] INFO ****** Start: 2018/05/05 14:01:42.998, End: 2018/05/05 14:01:43.007, Cost: 8.308
+[8548] INFO 
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[8548] INFO ****** Start: 2018/05/05 14:01:43.017, End: 2018/05/05 14:01:43.022, Cost: 5.588
+[8548] INFO 
+[8548] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : UPDATE TBLRES SET segcode='5F',jigcontrol='N',orgid='1',muser='JIANGGAOLIN',computermac='',computername='',crewcode='',resdesc='成品对焦',sscode='5F-ZZ03',resgroup='',mtime='140143',computerip='',restype='ResourceType_Human',shifttypecode='DAY',eattribute1='',reworkcode='',dctcode='',mdate='20180505',reworkroutecode='' WHERE rescode='ZZ51'
+[8548] INFO ****** Start: 2018/05/05 14:01:43.050, End: 2018/05/05 14:01:43.100, Cost: 49.573
+[8548] INFO 
+[8548] INFO ****** Open Connection
+[8548] INFO ****** Start: 2018/05/05 14:01:43.101, End: 2018/05/05 14:01:43.226, Cost: 124.869
+[8548] INFO 
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[8548] INFO ****** Start: 2018/05/05 14:01:43.227, End: 2018/05/05 14:01:43.236, Cost: 9.008
+[8548] INFO 
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='ZZ51'                                 group by rescode                             ) 
+[8548] INFO ****** Start: 2018/05/05 14:01:43.259, End: 2018/05/05 14:01:43.267, Cost: 8.100
+[8548] INFO 
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : SELECT computermac,logindate,computerip,mdate,releaseuser,jigcode,serial,muser,logintime,mtime,releasedate,releasetime,rescode,computername,loginuser FROM TBLRESRELEASELOG WHERE serial='5345'
+[8548] INFO ****** Start: 2018/05/05 14:01:43.272, End: 2018/05/05 14:01:43.280, Cost: 8.041
+[8548] INFO 
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[8548] INFO ****** Start: 2018/05/05 14:01:43.281, End: 2018/05/05 14:01:43.287, Cost: 6.050
+[8548] INFO 
+[8548] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='30:9C:23:53:CF:24',logindate='20180504',computerip='192.168.31.217',mdate='20180505',jigcode='',releaseuser='DLL',muser='DLL',logintime='190502',mtime='140144',releasedate='20180505',releasetime='140144',rescode='ZZ51',computername='LENOVO-PC',loginuser='LILXL' WHERE serial='5345'
+[8548] INFO ****** Start: 2018/05/05 14:01:43.289, End: 2018/05/05 14:01:43.296, Cost: 7.108
+[8548] INFO 
+[8548] INFO ****** Open Connection
+[8548] INFO ****** Start: 2018/05/05 14:01:43.304, End: 2018/05/05 14:01:43.394, Cost: 90.418
+[8548] INFO 
+[8548] INFO ****** Execute SQL
+[8548] INFO ****** Text : select * from tbljig where rescode='ZZ51'
+[8548] INFO ****** Start: 2018/05/05 14:01:43.395, End: 2018/05/05 14:01:43.405, Cost: 10.044
+[8548] INFO 
+[8548] INFO ****** Close Connection
+[8548] INFO ****** Start: 2018/05/05 14:01:43.411, End: 2018/05/05 14:01:43.411, Cost: 0.000
+[8548] INFO 
+[Footer]
