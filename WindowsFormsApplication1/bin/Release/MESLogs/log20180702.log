@@ -1,199 +1,0 @@
-[Header]
-[Footer]
-[Header]
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:40:39.518, End: 2018-07-02 13:40:44.584, Cost: 5065.657
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='BZ02'
-[14144] INFO ****** Start: 2018-07-02 13:40:45.440, End: 2018-07-02 13:40:45.630, Cost: 190.609
-[14144] INFO 
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:40:45.728, End: 2018-07-02 13:40:45.907, Cost: 178.482
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='BZ02'
-[14144] INFO ****** Start: 2018-07-02 13:40:45.931, End: 2018-07-02 13:40:45.950, Cost: 19.049
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='BZ02'
-[14144] INFO ****** Start: 2018-07-02 13:40:45.977, End: 2018-07-02 13:40:45.994, Cost: 17.044
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='BZ02'
-[14144] INFO ****** Start: 2018-07-02 13:40:46.026, End: 2018-07-02 13:40:46.038, Cost: 11.307
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14144] INFO ****** Start: 2018-07-02 13:40:46.045, End: 2018-07-02 13:40:46.080, Cost: 35.507
-[14144] INFO 
-[14144] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : UPDATE TBLRES SET segcode='AP',jigcontrol='N',orgid='1',muser='ADMIN',computermac='',computername='',crewcode='',resdesc='包装-功能测试',sscode='PACK01',resgroup='',mtime='134049',computerip='',restype='ResourceType_Human',shifttypecode='DAY',eattribute1='',reworkcode='',dctcode='',mdate='20180702',reworkroutecode='' WHERE rescode='BZ02'
-[14144] INFO ****** Start: 2018-07-02 13:40:46.121, End: 2018-07-02 13:40:46.263, Cost: 142.292
-[14144] INFO 
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:40:46.267, End: 2018-07-02 13:40:46.602, Cost: 334.994
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14144] INFO ****** Start: 2018-07-02 13:40:46.623, End: 2018-07-02 13:40:46.647, Cost: 23.317
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
-[14144] INFO ****** Start: 2018-07-02 13:40:46.790, End: 2018-07-02 13:40:46.919, Cost: 129.892
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT computermac,logindate,computerip,mdate,releaseuser,jigcode,serial,muser,logintime,mtime,releasedate,releasetime,rescode,computername,loginuser FROM TBLRESRELEASELOG WHERE serial='7170'
-[14144] INFO ****** Start: 2018-07-02 13:40:46.922, End: 2018-07-02 13:40:46.943, Cost: 20.053
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14144] INFO ****** Start: 2018-07-02 13:40:46.943, End: 2018-07-02 13:40:46.963, Cost: 20.930
-[14144] INFO 
-[14144] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='00:26:82:B7:BA:C7',logindate='20180629',computerip='192.168.2.198',mdate='20180702',jigcode='',releaseuser='DLL',muser='DLL',logintime='150906',mtime='134050',releasedate='20180702',releasetime='134050',rescode='BZ02',computername='M2M_PB',loginuser='LILXL' WHERE serial='7170'
-[14144] INFO ****** Start: 2018-07-02 13:40:46.964, End: 2018-07-02 13:40:46.985, Cost: 20.855
-[14144] INFO 
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:40:47.020, End: 2018-07-02 13:40:47.020, Cost: 0.000
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select * from tbljig where rescode='BZ02'
-[14144] INFO ****** Start: 2018-07-02 13:40:47.020, End: 2018-07-02 13:40:47.027, Cost: 7.020
-[14144] INFO 
-[14144] INFO ****** Close Connection
-[14144] INFO ****** Start: 2018-07-02 13:40:47.028, End: 2018-07-02 13:40:47.048, Cost: 20.053
-[14144] INFO 
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:41:11.043, End: 2018-07-02 13:41:11.043, Cost: 0.000
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ11'
-[14144] INFO ****** Start: 2018-07-02 13:41:11.043, End: 2018-07-02 13:41:11.078, Cost: 34.826
-[14144] INFO 
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:41:11.080, End: 2018-07-02 13:41:11.213, Cost: 133.453
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ11'
-[14144] INFO ****** Start: 2018-07-02 13:41:11.213, End: 2018-07-02 13:41:11.223, Cost: 9.890
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ11'
-[14144] INFO ****** Start: 2018-07-02 13:41:11.225, End: 2018-07-02 13:41:11.234, Cost: 8.447
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ11'
-[14144] INFO ****** Start: 2018-07-02 13:41:11.238, End: 2018-07-02 13:41:11.246, Cost: 8.178
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14144] INFO ****** Start: 2018-07-02 13:41:11.248, End: 2018-07-02 13:41:11.255, Cost: 6.994
-[14144] INFO 
-[14144] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : UPDATE TBLRES SET segcode='AP',jigcontrol='N',orgid='1',muser='JIANGGAOLIN',computermac='',computername='',crewcode='',resdesc='组装-PCB投入',sscode='ASS11',resgroup='',mtime='134114',computerip='',restype='ResourceType_Human',shifttypecode='DAY',eattribute1='',reworkcode='',dctcode='',mdate='20180702',reworkroutecode='' WHERE rescode='ZZ11'
-[14144] INFO ****** Start: 2018-07-02 13:41:11.258, End: 2018-07-02 13:41:11.279, Cost: 21.038
-[14144] INFO 
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:41:11.833, End: 2018-07-02 13:41:11.983, Cost: 149.360
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14144] INFO ****** Start: 2018-07-02 13:41:11.984, End: 2018-07-02 13:41:11.991, Cost: 6.991
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='ZZ11'                                 group by rescode                             ) 
-[14144] INFO ****** Start: 2018-07-02 13:41:11.992, End: 2018-07-02 13:41:12.029, Cost: 37.264
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT computermac,logindate,computerip,mdate,releaseuser,jigcode,serial,muser,logintime,mtime,releasedate,releasetime,rescode,computername,loginuser FROM TBLRESRELEASELOG WHERE serial='7142'
-[14144] INFO ****** Start: 2018-07-02 13:41:12.030, End: 2018-07-02 13:41:12.039, Cost: 9.025
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14144] INFO ****** Start: 2018-07-02 13:41:12.039, End: 2018-07-02 13:41:12.061, Cost: 21.811
-[14144] INFO 
-[14144] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',logindate='20180627',computerip='192.168.3.100',mdate='20180702',jigcode='',releaseuser='DLL',muser='DLL',logintime='84801',mtime='134115',releasedate='20180702',releasetime='134115',rescode='ZZ11',computername='DESKTOP-QGID4TG',loginuser='LILXL' WHERE serial='7142'
-[14144] INFO ****** Start: 2018-07-02 13:41:12.064, End: 2018-07-02 13:41:12.072, Cost: 8.213
-[14144] INFO 
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:41:12.077, End: 2018-07-02 13:41:12.194, Cost: 116.730
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select * from tbljig where rescode='ZZ11'
-[14144] INFO ****** Start: 2018-07-02 13:41:12.195, End: 2018-07-02 13:41:12.224, Cost: 29.275
-[14144] INFO 
-[14144] INFO ****** Close Connection
-[14144] INFO ****** Start: 2018-07-02 13:41:12.225, End: 2018-07-02 13:41:12.225, Cost: 0.000
-[14144] INFO 
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:41:16.202, End: 2018-07-02 13:41:16.202, Cost: 0.000
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ55'
-[14144] INFO ****** Start: 2018-07-02 13:41:16.202, End: 2018-07-02 13:41:16.211, Cost: 8.295
-[14144] INFO 
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:41:16.213, End: 2018-07-02 13:41:16.330, Cost: 117.073
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ55'
-[14144] INFO ****** Start: 2018-07-02 13:41:16.331, End: 2018-07-02 13:41:16.340, Cost: 9.025
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ55'
-[14144] INFO ****** Start: 2018-07-02 13:41:16.357, End: 2018-07-02 13:41:16.366, Cost: 9.025
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='ZZ55'
-[14144] INFO ****** Start: 2018-07-02 13:41:16.370, End: 2018-07-02 13:41:16.380, Cost: 9.876
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14144] INFO ****** Start: 2018-07-02 13:41:16.382, End: 2018-07-02 13:41:16.390, Cost: 7.992
-[14144] INFO 
-[14144] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : UPDATE TBLRES SET segcode='5F',jigcontrol='N',orgid='1',muser='ADMIN',computermac='',computername='',crewcode='',resdesc='功能测试',sscode='5F-ZZ03',resgroup='',mtime='134119',computerip='',restype='ResourceType_Human',shifttypecode='DAY',eattribute1='',reworkcode='',dctcode='',mdate='20180702',reworkroutecode='' WHERE rescode='ZZ55'
-[14144] INFO ****** Start: 2018-07-02 13:41:16.394, End: 2018-07-02 13:41:16.404, Cost: 10.095
-[14144] INFO 
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:41:16.407, End: 2018-07-02 13:41:16.407, Cost: 0.000
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14144] INFO ****** Start: 2018-07-02 13:41:16.407, End: 2018-07-02 13:41:16.415, Cost: 7.876
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='ZZ55'                                 group by rescode                             ) 
-[14144] INFO ****** Start: 2018-07-02 13:41:16.416, End: 2018-07-02 13:41:16.428, Cost: 12.004
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : SELECT computermac,logindate,computerip,mdate,releaseuser,jigcode,serial,muser,logintime,mtime,releasedate,releasetime,rescode,computername,loginuser FROM TBLRESRELEASELOG WHERE serial='7071'
-[14144] INFO ****** Start: 2018-07-02 13:41:16.432, End: 2018-07-02 13:41:16.443, Cost: 10.949
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14144] INFO ****** Start: 2018-07-02 13:41:16.445, End: 2018-07-02 13:41:16.454, Cost: 9.027
-[14144] INFO 
-[14144] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='00:26:82:B7:BA:C7',logindate='20180615',computerip='192.168.7.115',mdate='20180702',jigcode='',releaseuser='DLL',muser='DLL',logintime='152035',mtime='134119',releasedate='20180702',releasetime='134119',rescode='ZZ55',computername='M2M_PB',loginuser='LILXL' WHERE serial='7071'
-[14144] INFO ****** Start: 2018-07-02 13:41:16.457, End: 2018-07-02 13:41:16.468, Cost: 11.029
-[14144] INFO 
-[14144] INFO ****** Open Connection
-[14144] INFO ****** Start: 2018-07-02 13:41:16.471, End: 2018-07-02 13:41:16.471, Cost: 0.000
-[14144] INFO 
-[14144] INFO ****** Execute SQL
-[14144] INFO ****** Text : select * from tbljig where rescode='ZZ55'
-[14144] INFO ****** Start: 2018-07-02 13:41:16.471, End: 2018-07-02 13:41:16.481, Cost: 9.856
-[14144] INFO 
-[14144] INFO ****** Close Connection
-[14144] INFO ****** Start: 2018-07-02 13:41:17.019, End: 2018-07-02 13:41:17.019, Cost: 0.000
-[14144] INFO 
-[Footer]

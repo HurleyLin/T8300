@@ -1,138 +1,0 @@
-[Header]
-[Footer]
-[Header]
-[14072] INFO ****** Open Connection
-[14072] INFO ****** Start: 2018-07-06 16:05:46.412, End: 2018-07-06 16:05:47.622, Cost: 1210.311
-[14072] INFO 
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='REPAIR'
-[14072] INFO ****** Start: 2018-07-06 16:05:48.054, End: 2018-07-06 16:05:48.064, Cost: 10.312
-[14072] INFO 
-[14072] INFO ****** Open Connection
-[14072] INFO ****** Start: 2018-07-06 16:05:48.072, End: 2018-07-06 16:05:49.147, Cost: 1074.179
-[14072] INFO 
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='REPAIR'
-[14072] INFO ****** Start: 2018-07-06 16:05:49.283, End: 2018-07-06 16:05:49.294, Cost: 11.113
-[14072] INFO 
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='REPAIR'
-[14072] INFO ****** Start: 2018-07-06 16:05:49.301, End: 2018-07-06 16:05:50.267, Cost: 966.501
-[14072] INFO 
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='REPAIR'
-[14072] INFO ****** Start: 2018-07-06 16:05:50.420, End: 2018-07-06 16:05:52.590, Cost: 2170.335
-[14072] INFO 
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14072] INFO ****** Start: 2018-07-06 16:05:52.607, End: 2018-07-06 16:05:52.615, Cost: 7.991
-[14072] INFO 
-[14072] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : UPDATE TBLRES SET segcode='AP',jigcontrol='N',orgid='1',muser='ADMIN',computermac='',computername='',crewcode='',resdesc='维修',sscode='PACK01',resgroup='',mtime='160553',computerip='',restype='ResourceType_Human',shifttypecode='DAY',eattribute1='',reworkcode='',dctcode='',mdate='20180706',reworkroutecode='' WHERE rescode='REPAIR'
-[14072] INFO ****** Start: 2018-07-06 16:05:52.688, End: 2018-07-06 16:05:52.785, Cost: 96.256
-[14072] INFO 
-[14072] INFO ****** Open Connection
-[14072] INFO ****** Start: 2018-07-06 16:05:52.786, End: 2018-07-06 16:05:55.905, Cost: 3119.032
-[14072] INFO 
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14072] INFO ****** Start: 2018-07-06 16:05:55.905, End: 2018-07-06 16:05:55.912, Cost: 7.019
-[14072] INFO 
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='REPAIR'                                 group by rescode                             ) 
-[14072] INFO ****** Start: 2018-07-06 16:05:55.935, End: 2018-07-06 16:05:55.946, Cost: 11.212
-[14072] INFO 
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : SELECT computermac,logindate,computerip,mdate,releaseuser,jigcode,serial,muser,logintime,mtime,releasedate,releasetime,rescode,computername,loginuser FROM TBLRESRELEASELOG WHERE serial='7333'
-[14072] INFO ****** Start: 2018-07-06 16:05:55.950, End: 2018-07-06 16:05:55.959, Cost: 9.255
-[14072] INFO 
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[14072] INFO ****** Start: 2018-07-06 16:05:56.011, End: 2018-07-06 16:05:56.032, Cost: 21.417
-[14072] INFO 
-[14072] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='00:26:82:B7:BA:C7',logindate='20180706',computerip='192.168.2.179',mdate='20180706',jigcode='',releaseuser='DLL',muser='DLL',logintime='144901',mtime='160557',releasedate='20180706',releasetime='160557',rescode='REPAIR',computername='M2M_PB',loginuser='LILXL' WHERE serial='7333'
-[14072] INFO ****** Start: 2018-07-06 16:05:56.035, End: 2018-07-06 16:05:56.046, Cost: 10.996
-[14072] INFO 
-[14072] INFO ****** Open Connection
-[14072] INFO ****** Start: 2018-07-06 16:05:56.079, End: 2018-07-06 16:05:56.079, Cost: 0.000
-[14072] INFO 
-[14072] INFO ****** Execute SQL
-[14072] INFO ****** Text : select * from tbljig where rescode='REPAIR'
-[14072] INFO ****** Start: 2018-07-06 16:05:56.079, End: 2018-07-06 16:05:56.088, Cost: 8.990
-[14072] INFO 
-[14072] INFO ****** Close Connection
-[14072] INFO ****** Start: 2018-07-06 16:05:56.095, End: 2018-07-06 16:05:56.120, Cost: 25.428
-[14072] INFO 
-[Footer]
-[Header]
-[Footer]
-[Header]
-[5100] INFO ****** Open Connection
-[5100] INFO ****** Start: 2018-07-06 16:08:13.946, End: 2018-07-06 16:08:15.964, Cost: 2017.690
-[5100] INFO 
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='REPAIR'
-[5100] INFO ****** Start: 2018-07-06 16:08:16.096, End: 2018-07-06 16:08:16.109, Cost: 12.596
-[5100] INFO 
-[5100] INFO ****** Open Connection
-[5100] INFO ****** Start: 2018-07-06 16:08:16.116, End: 2018-07-06 16:08:17.141, Cost: 1025.190
-[5100] INFO 
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='REPAIR'
-[5100] INFO ****** Start: 2018-07-06 16:08:17.142, End: 2018-07-06 16:08:17.151, Cost: 9.366
-[5100] INFO 
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='REPAIR'
-[5100] INFO ****** Start: 2018-07-06 16:08:17.153, End: 2018-07-06 16:08:17.163, Cost: 10.369
-[5100] INFO 
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : SELECT segcode,jigcontrol,orgid,muser,computermac,computername,crewcode,rescode,resdesc,sscode,resgroup,mtime,computerip,restype,shifttypecode,eattribute1,reworkcode,dctcode,mdate,reworkroutecode FROM TBLRES WHERE rescode='REPAIR'
-[5100] INFO ****** Start: 2018-07-06 16:08:17.170, End: 2018-07-06 16:08:17.180, Cost: 10.064
-[5100] INFO 
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[5100] INFO ****** Start: 2018-07-06 16:08:17.184, End: 2018-07-06 16:08:17.195, Cost: 10.845
-[5100] INFO 
-[5100] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : UPDATE TBLRES SET segcode='AP',jigcontrol='N',orgid='1',muser='ADMIN',computermac='',computername='',crewcode='',resdesc='维修',sscode='PACK01',resgroup='',mtime='160818',computerip='',restype='ResourceType_Human',shifttypecode='DAY',eattribute1='',reworkcode='',dctcode='',mdate='20180706',reworkroutecode='' WHERE rescode='REPAIR'
-[5100] INFO ****** Start: 2018-07-06 16:08:17.205, End: 2018-07-06 16:08:17.215, Cost: 9.863
-[5100] INFO 
-[5100] INFO ****** Open Connection
-[5100] INFO ****** Start: 2018-07-06 16:08:17.769, End: 2018-07-06 16:08:18.239, Cost: 469.518
-[5100] INFO 
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[5100] INFO ****** Start: 2018-07-06 16:08:18.239, End: 2018-07-06 16:08:18.246, Cost: 7.020
-[5100] INFO 
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='REPAIR'                                 group by rescode                             ) 
-[5100] INFO ****** Start: 2018-07-06 16:08:18.259, End: 2018-07-06 16:08:18.269, Cost: 9.680
-[5100] INFO 
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : SELECT computermac,logindate,computerip,mdate,releaseuser,jigcode,serial,muser,logintime,mtime,releasedate,releasetime,rescode,computername,loginuser FROM TBLRESRELEASELOG WHERE serial='7334'
-[5100] INFO ****** Start: 2018-07-06 16:08:18.274, End: 2018-07-06 16:08:18.283, Cost: 9.212
-[5100] INFO 
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
-[5100] INFO ****** Start: 2018-07-06 16:08:18.283, End: 2018-07-06 16:08:19.197, Cost: 914.033
-[5100] INFO 
-[5100] ERROR未能找到文件“F:\工厂\四楼mes客户端\20170412\Release\DLL\dblog.xml”。
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',logindate='20180706',computerip='192.168.3.100',mdate='20180706',jigcode='',releaseuser='DLL',muser='DLL',logintime='160606',mtime='160819',releasedate='20180706',releasetime='160819',rescode='REPAIR',computername='DESKTOP-QGID4TG',loginuser='LILXL' WHERE serial='7334'
-[5100] INFO ****** Start: 2018-07-06 16:08:19.199, End: 2018-07-06 16:08:21.318, Cost: 2119.459
-[5100] INFO 
-[5100] INFO ****** Open Connection
-[5100] INFO ****** Start: 2018-07-06 16:08:21.320, End: 2018-07-06 16:08:21.320, Cost: 0.000
-[5100] INFO 
-[5100] INFO ****** Execute SQL
-[5100] INFO ****** Text : select * from tbljig where rescode='REPAIR'
-[5100] INFO ****** Start: 2018-07-06 16:08:21.320, End: 2018-07-06 16:08:21.330, Cost: 9.053
-[5100] INFO 
-[5100] INFO ****** Close Connection
-[5100] INFO ****** Start: 2018-07-06 16:08:21.331, End: 2018-07-06 16:08:21.331, Cost: 0.000
-[5100] INFO 
-[Footer]
