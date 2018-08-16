@@ -1,0 +1,2210 @@
+[Header]
+[Footer]
+[Header]
+[4468] INFO ****** Open Connection
+[4468] INFO ****** Start: 2018/08/02 08:48:41.746, End: 2018/08/02 08:48:47.259, Cost: 5513.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.348, End: 2018/08/02 08:48:47.357, Cost: 9.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.361, End: 2018/08/02 08:48:47.368, Cost: 7.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[4468] INFO ****** Start: 2018/08/02 08:48:47.374, End: 2018/08/02 08:48:47.380, Cost: 6.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.382, End: 2018/08/02 08:48:47.389, Cost: 7.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[4468] INFO ****** Start: 2018/08/02 08:48:47.390, End: 2018/08/02 08:48:47.396, Cost: 6.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.398, End: 2018/08/02 08:48:47.405, Cost: 7.000
+[4468] INFO 
+[4468] INFO ****** Open Connection
+[4468] INFO ****** Start: 2018/08/02 08:48:47.487, End: 2018/08/02 08:48:47.574, Cost: 87.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.574, End: 2018/08/02 08:48:47.583, Cost: 9.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.585, End: 2018/08/02 08:48:47.594, Cost: 9.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.599, End: 2018/08/02 08:48:47.607, Cost: 8.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.609, End: 2018/08/02 08:48:47.615, Cost: 6.000
+[4468] INFO 
+[4468] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='84851',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.621, End: 2018/08/02 08:48:47.630, Cost: 9.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.630, End: 2018/08/02 08:48:47.636, Cost: 6.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.638, End: 2018/08/02 08:48:47.645, Cost: 7.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4468] INFO ****** Start: 2018/08/02 08:48:47.646, End: 2018/08/02 08:48:47.652, Cost: 6.000
+[4468] INFO 
+[4468] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','84851','BZ02','20180802','0','','84851')
+[4468] INFO ****** Start: 2018/08/02 08:48:47.654, End: 2018/08/02 08:48:47.661, Cost: 7.000
+[4468] INFO 
+[4468] INFO ****** Open Connection
+[4468] INFO ****** Start: 2018/08/02 08:48:47.664, End: 2018/08/02 08:48:47.770, Cost: 106.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[4468] INFO ****** Start: 2018/08/02 08:48:47.770, End: 2018/08/02 08:48:47.778, Cost: 8.000
+[4468] INFO 
+[4468] INFO ****** Close Connection
+[4468] INFO ****** Start: 2018/08/02 08:48:47.779, End: 2018/08/02 08:48:47.779, Cost: 0.000
+[4468] INFO 
+[4468] INFO ****** Open Connection
+[4468] INFO ****** Start: 2018/08/02 08:49:22.524, End: 2018/08/02 08:49:22.524, Cost: 0.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4468] INFO ****** Start: 2018/08/02 08:49:22.525, End: 2018/08/02 08:49:22.552, Cost: 27.000
+[4468] INFO 
+[4468] INFO ****** Open Connection
+[4468] INFO ****** Start: 2018/08/02 08:49:22.554, End: 2018/08/02 08:49:22.554, Cost: 0.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4468] INFO ****** Start: 2018/08/02 08:49:22.554, End: 2018/08/02 08:49:22.561, Cost: 7.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4468] INFO ****** Start: 2018/08/02 08:49:22.562, End: 2018/08/02 08:49:22.569, Cost: 7.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4468] INFO ****** Start: 2018/08/02 08:49:22.570, End: 2018/08/02 08:49:22.577, Cost: 7.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4468] INFO ****** Start: 2018/08/02 08:49:22.578, End: 2018/08/02 08:49:22.583, Cost: 5.000
+[4468] INFO 
+[4468] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='84926',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[4468] INFO ****** Start: 2018/08/02 08:49:22.584, End: 2018/08/02 08:49:22.592, Cost: 8.000
+[4468] INFO 
+[4468] INFO ****** Open Connection
+[4468] INFO ****** Start: 2018/08/02 08:49:22.593, End: 2018/08/02 08:49:22.593, Cost: 0.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4468] INFO ****** Start: 2018/08/02 08:49:22.593, End: 2018/08/02 08:49:22.599, Cost: 6.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[4468] INFO ****** Start: 2018/08/02 08:49:22.600, End: 2018/08/02 08:49:22.667, Cost: 67.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7710'
+[4468] INFO ****** Start: 2018/08/02 08:49:22.668, End: 2018/08/02 08:49:22.675, Cost: 7.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4468] INFO ****** Start: 2018/08/02 08:49:22.676, End: 2018/08/02 08:49:22.682, Cost: 6.000
+[4468] INFO 
+[4468] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='84926',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='84926',rescode='BZ02',logindate='20180802',jigcode='',logintime='84851' WHERE serial='7710'
+[4468] INFO ****** Start: 2018/08/02 08:49:22.683, End: 2018/08/02 08:49:22.689, Cost: 6.000
+[4468] INFO 
+[4468] INFO ****** Open Connection
+[4468] INFO ****** Start: 2018/08/02 08:49:22.691, End: 2018/08/02 08:49:22.794, Cost: 103.000
+[4468] INFO 
+[4468] INFO ****** Execute SQL
+[4468] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[4468] INFO ****** Start: 2018/08/02 08:49:22.794, End: 2018/08/02 08:49:22.802, Cost: 8.000
+[4468] INFO 
+[4468] INFO ****** Close Connection
+[4468] INFO ****** Start: 2018/08/02 08:49:22.802, End: 2018/08/02 08:49:22.802, Cost: 0.000
+[4468] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[6128] INFO ****** Open Connection
+[6128] INFO ****** Start: 2018/08/02 09:08:16.689, End: 2018/08/02 09:08:17.143, Cost: 454.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.242, End: 2018/08/02 09:08:17.263, Cost: 21.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.267, End: 2018/08/02 09:08:17.283, Cost: 16.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6128] INFO ****** Start: 2018/08/02 09:08:17.288, End: 2018/08/02 09:08:17.304, Cost: 16.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.306, End: 2018/08/02 09:08:17.328, Cost: 22.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6128] INFO ****** Start: 2018/08/02 09:08:17.331, End: 2018/08/02 09:08:17.348, Cost: 17.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.352, End: 2018/08/02 09:08:17.371, Cost: 19.000
+[6128] INFO 
+[6128] INFO ****** Open Connection
+[6128] INFO ****** Start: 2018/08/02 09:08:17.499, End: 2018/08/02 09:08:17.625, Cost: 126.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.626, End: 2018/08/02 09:08:17.637, Cost: 11.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.641, End: 2018/08/02 09:08:17.652, Cost: 11.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.665, End: 2018/08/02 09:08:17.678, Cost: 13.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.681, End: 2018/08/02 09:08:17.692, Cost: 11.000
+[6128] INFO 
+[6128] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='90821',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.703, End: 2018/08/02 09:08:17.713, Cost: 10.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.713, End: 2018/08/02 09:08:17.720, Cost: 7.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.723, End: 2018/08/02 09:08:17.732, Cost: 9.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6128] INFO ****** Start: 2018/08/02 09:08:17.732, End: 2018/08/02 09:08:17.741, Cost: 9.000
+[6128] INFO 
+[6128] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','90821','BZ02','20180802','0','','90821')
+[6128] INFO ****** Start: 2018/08/02 09:08:17.743, End: 2018/08/02 09:08:17.752, Cost: 9.000
+[6128] INFO 
+[6128] INFO ****** Open Connection
+[6128] INFO ****** Start: 2018/08/02 09:08:17.755, End: 2018/08/02 09:08:17.872, Cost: 117.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[6128] INFO ****** Start: 2018/08/02 09:08:17.873, End: 2018/08/02 09:08:17.883, Cost: 10.000
+[6128] INFO 
+[6128] INFO ****** Close Connection
+[6128] INFO ****** Start: 2018/08/02 09:08:17.886, End: 2018/08/02 09:08:17.886, Cost: 0.000
+[6128] INFO 
+[6128] INFO ****** Open Connection
+[6128] INFO ****** Start: 2018/08/02 09:14:10.568, End: 2018/08/02 09:14:10.856, Cost: 288.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6128] INFO ****** Start: 2018/08/02 09:14:10.856, End: 2018/08/02 09:14:10.884, Cost: 28.000
+[6128] INFO 
+[6128] INFO ****** Open Connection
+[6128] INFO ****** Start: 2018/08/02 09:14:10.891, End: 2018/08/02 09:14:11.162, Cost: 271.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6128] INFO ****** Start: 2018/08/02 09:14:11.163, End: 2018/08/02 09:14:11.185, Cost: 22.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6128] INFO ****** Start: 2018/08/02 09:14:11.188, End: 2018/08/02 09:14:11.206, Cost: 18.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6128] INFO ****** Start: 2018/08/02 09:14:11.210, End: 2018/08/02 09:14:11.228, Cost: 18.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6128] INFO ****** Start: 2018/08/02 09:14:11.230, End: 2018/08/02 09:14:11.256, Cost: 26.000
+[6128] INFO 
+[6128] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='91415',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6128] INFO ****** Start: 2018/08/02 09:14:11.259, End: 2018/08/02 09:14:11.280, Cost: 21.000
+[6128] INFO 
+[6128] INFO ****** Open Connection
+[6128] INFO ****** Start: 2018/08/02 09:14:11.281, End: 2018/08/02 09:14:11.403, Cost: 122.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6128] INFO ****** Start: 2018/08/02 09:14:11.404, End: 2018/08/02 09:14:11.413, Cost: 9.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[6128] INFO ****** Start: 2018/08/02 09:14:11.415, End: 2018/08/02 09:14:11.426, Cost: 11.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7711'
+[6128] INFO ****** Start: 2018/08/02 09:14:11.430, End: 2018/08/02 09:14:11.439, Cost: 9.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6128] INFO ****** Start: 2018/08/02 09:14:11.441, End: 2018/08/02 09:14:11.448, Cost: 7.000
+[6128] INFO 
+[6128] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='91415',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='91415',rescode='BZ02',logindate='20180802',jigcode='',logintime='90821' WHERE serial='7711'
+[6128] INFO ****** Start: 2018/08/02 09:14:11.452, End: 2018/08/02 09:14:11.461, Cost: 9.000
+[6128] INFO 
+[6128] INFO ****** Open Connection
+[6128] INFO ****** Start: 2018/08/02 09:14:11.466, End: 2018/08/02 09:14:11.580, Cost: 114.000
+[6128] INFO 
+[6128] INFO ****** Execute SQL
+[6128] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[6128] INFO ****** Start: 2018/08/02 09:14:11.581, End: 2018/08/02 09:14:11.589, Cost: 8.000
+[6128] INFO 
+[6128] INFO ****** Close Connection
+[6128] INFO ****** Start: 2018/08/02 09:14:11.590, End: 2018/08/02 09:14:11.590, Cost: 0.000
+[6128] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[6140] INFO ****** Open Connection
+[6140] INFO ****** Start: 2018/08/02 09:17:14.129, End: 2018/08/02 09:17:14.341, Cost: 212.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.427, End: 2018/08/02 09:17:14.439, Cost: 12.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.443, End: 2018/08/02 09:17:14.450, Cost: 7.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6140] INFO ****** Start: 2018/08/02 09:17:14.455, End: 2018/08/02 09:17:14.461, Cost: 6.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.463, End: 2018/08/02 09:17:14.471, Cost: 8.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6140] INFO ****** Start: 2018/08/02 09:17:14.472, End: 2018/08/02 09:17:14.478, Cost: 6.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.479, End: 2018/08/02 09:17:14.486, Cost: 7.000
+[6140] INFO 
+[6140] INFO ****** Open Connection
+[6140] INFO ****** Start: 2018/08/02 09:17:14.547, End: 2018/08/02 09:17:14.644, Cost: 97.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.645, End: 2018/08/02 09:17:14.654, Cost: 9.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.658, End: 2018/08/02 09:17:14.668, Cost: 10.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.680, End: 2018/08/02 09:17:14.689, Cost: 9.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.691, End: 2018/08/02 09:17:14.716, Cost: 25.000
+[6140] INFO 
+[6140] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='91718',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.733, End: 2018/08/02 09:17:14.742, Cost: 9.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.742, End: 2018/08/02 09:17:14.753, Cost: 11.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.757, End: 2018/08/02 09:17:14.763, Cost: 6.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6140] INFO ****** Start: 2018/08/02 09:17:14.764, End: 2018/08/02 09:17:14.771, Cost: 7.000
+[6140] INFO 
+[6140] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','91718','BZ02','20180802','0','','91718')
+[6140] INFO ****** Start: 2018/08/02 09:17:14.773, End: 2018/08/02 09:17:14.780, Cost: 7.000
+[6140] INFO 
+[6140] INFO ****** Open Connection
+[6140] INFO ****** Start: 2018/08/02 09:17:14.784, End: 2018/08/02 09:17:14.901, Cost: 117.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[6140] INFO ****** Start: 2018/08/02 09:17:14.902, End: 2018/08/02 09:17:14.911, Cost: 9.000
+[6140] INFO 
+[6140] INFO ****** Close Connection
+[6140] INFO ****** Start: 2018/08/02 09:17:14.914, End: 2018/08/02 09:17:14.914, Cost: 0.000
+[6140] INFO 
+[6140] INFO ****** Open Connection
+[6140] INFO ****** Start: 2018/08/02 09:20:46.952, End: 2018/08/02 09:20:47.146, Cost: 194.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6140] INFO ****** Start: 2018/08/02 09:20:47.147, End: 2018/08/02 09:20:47.162, Cost: 15.000
+[6140] INFO 
+[6140] INFO ****** Open Connection
+[6140] INFO ****** Start: 2018/08/02 09:20:47.169, End: 2018/08/02 09:20:47.402, Cost: 233.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6140] INFO ****** Start: 2018/08/02 09:20:47.403, End: 2018/08/02 09:20:47.424, Cost: 21.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6140] INFO ****** Start: 2018/08/02 09:20:47.426, End: 2018/08/02 09:20:47.445, Cost: 19.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6140] INFO ****** Start: 2018/08/02 09:20:47.447, End: 2018/08/02 09:20:47.467, Cost: 20.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6140] INFO ****** Start: 2018/08/02 09:20:47.467, End: 2018/08/02 09:20:47.488, Cost: 21.000
+[6140] INFO 
+[6140] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='92051',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6140] INFO ****** Start: 2018/08/02 09:20:47.489, End: 2018/08/02 09:20:47.511, Cost: 22.000
+[6140] INFO 
+[6140] INFO ****** Open Connection
+[6140] INFO ****** Start: 2018/08/02 09:20:47.515, End: 2018/08/02 09:20:47.775, Cost: 260.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6140] INFO ****** Start: 2018/08/02 09:20:47.776, End: 2018/08/02 09:20:47.797, Cost: 21.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[6140] INFO ****** Start: 2018/08/02 09:20:47.799, End: 2018/08/02 09:20:47.818, Cost: 19.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7712'
+[6140] INFO ****** Start: 2018/08/02 09:20:47.822, End: 2018/08/02 09:20:47.840, Cost: 18.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6140] INFO ****** Start: 2018/08/02 09:20:47.842, End: 2018/08/02 09:20:47.863, Cost: 21.000
+[6140] INFO 
+[6140] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='92051',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='92052',rescode='BZ02',logindate='20180802',jigcode='',logintime='91718' WHERE serial='7712'
+[6140] INFO ****** Start: 2018/08/02 09:20:47.884, End: 2018/08/02 09:20:47.908, Cost: 24.000
+[6140] INFO 
+[6140] INFO ****** Open Connection
+[6140] INFO ****** Start: 2018/08/02 09:20:47.911, End: 2018/08/02 09:20:47.911, Cost: 0.000
+[6140] INFO 
+[6140] INFO ****** Execute SQL
+[6140] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[6140] INFO ****** Start: 2018/08/02 09:20:47.911, End: 2018/08/02 09:20:47.933, Cost: 22.000
+[6140] INFO 
+[6140] INFO ****** Close Connection
+[6140] INFO ****** Start: 2018/08/02 09:20:47.934, End: 2018/08/02 09:20:47.934, Cost: 0.000
+[6140] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[5812] INFO ****** Open Connection
+[5812] INFO ****** Start: 2018/08/02 09:20:56.049, End: 2018/08/02 09:20:56.434, Cost: 385.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[5812] INFO ****** Start: 2018/08/02 09:20:56.514, End: 2018/08/02 09:20:56.526, Cost: 12.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[5812] INFO ****** Start: 2018/08/02 09:20:56.530, End: 2018/08/02 09:20:56.547, Cost: 17.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[5812] INFO ****** Start: 2018/08/02 09:20:56.552, End: 2018/08/02 09:20:56.569, Cost: 17.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:20:56.570, End: 2018/08/02 09:20:56.595, Cost: 25.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[5812] INFO ****** Start: 2018/08/02 09:20:56.599, End: 2018/08/02 09:20:56.618, Cost: 19.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[5812] INFO ****** Start: 2018/08/02 09:20:56.620, End: 2018/08/02 09:20:56.641, Cost: 21.000
+[5812] INFO 
+[5812] INFO ****** Open Connection
+[5812] INFO ****** Start: 2018/08/02 09:20:56.713, End: 2018/08/02 09:20:56.992, Cost: 279.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:20:56.992, End: 2018/08/02 09:20:57.019, Cost: 27.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:20:57.024, End: 2018/08/02 09:20:57.041, Cost: 17.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:20:57.054, End: 2018/08/02 09:20:57.085, Cost: 31.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5812] INFO ****** Start: 2018/08/02 09:20:57.089, End: 2018/08/02 09:20:57.107, Cost: 18.000
+[5812] INFO 
+[5812] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='92101',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:20:57.123, End: 2018/08/02 09:20:57.134, Cost: 11.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5812] INFO ****** Start: 2018/08/02 09:20:57.134, End: 2018/08/02 09:20:57.144, Cost: 10.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[5812] INFO ****** Start: 2018/08/02 09:20:57.148, End: 2018/08/02 09:20:57.157, Cost: 9.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5812] INFO ****** Start: 2018/08/02 09:20:57.157, End: 2018/08/02 09:20:57.165, Cost: 8.000
+[5812] INFO 
+[5812] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','92101','BZ02','20180802','0','','92101')
+[5812] INFO ****** Start: 2018/08/02 09:20:57.169, End: 2018/08/02 09:20:57.179, Cost: 10.000
+[5812] INFO 
+[5812] INFO ****** Open Connection
+[5812] INFO ****** Start: 2018/08/02 09:20:57.185, End: 2018/08/02 09:20:57.339, Cost: 154.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[5812] INFO ****** Start: 2018/08/02 09:20:57.340, End: 2018/08/02 09:20:57.349, Cost: 9.000
+[5812] INFO 
+[5812] INFO ****** Close Connection
+[5812] INFO ****** Start: 2018/08/02 09:20:57.352, End: 2018/08/02 09:20:57.352, Cost: 0.000
+[5812] INFO 
+[5812] INFO ****** Open Connection
+[5812] INFO ****** Start: 2018/08/02 09:21:11.836, End: 2018/08/02 09:21:11.840, Cost: 4.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:21:11.840, End: 2018/08/02 09:21:11.858, Cost: 18.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT orgid,orgdesc,mdate,mtime,muser FROM TBLORG WHERE orgid='1'
+[5812] INFO ****** Start: 2018/08/02 09:21:11.862, End: 2018/08/02 09:21:11.879, Cost: 17.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select opcode, mdate, mtime, resseq, eattribute1, muser, rescode from TBLop2RES where RESCODE ='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:21:11.935, End: 2018/08/02 09:21:11.950, Cost: 15.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT * FROM tblSimulationReport WHERE RCard='1111' ORDER BY MDate DESC,MTime DESC 
+[5812] INFO ****** Start: 2018/08/02 09:21:11.961, End: 2018/08/02 09:21:12.016, Cost: 55.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text :  select  distinct GetTSN('1111','') scard from dual 
+[5812] INFO ****** Start: 2018/08/02 09:21:12.018, End: 2018/08/02 09:21:12.279, Cost: 261.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT * FROM tblSimulationReport WHERE RCard='1111' ORDER BY MDate DESC,MTime DESC 
+[5812] INFO ****** Start: 2018/08/02 09:21:12.282, End: 2018/08/02 09:21:12.303, Cost: 21.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text :  SELECT   imei1, mdate, sn, imei2, cdate, id2, id5, muser, netcode, meid, id3, mtime, ctime, cuser, mocode, psn, eattribute1, tsn, id4, status, id1, serial  FROM  Tblmo2imei  WHERE  1=1   AND   Tsn='1111'   ORDER  BY  MDATE DESC,MTIME DESC 
+[5812] INFO ****** Start: 2018/08/02 09:21:12.310, End: 2018/08/02 09:21:12.347, Cost: 37.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select mocode, itemcode, scard, cartoncode, scardseq, routecode, laction, modelcode, actionlist, rescode, moseq, rmabillcode, ishold, ngtimes, rcard, mtime, rcardseq, fromop, palletcode, fromroute, productstatus, muser, shelfno, eattribute1, tcard, lotno, iscom, tcardseq, idmergerule, opcode, eattribute2, mdate from tblsimulation where 					(rcard,mocode) in ( 					select rcard, mocode 					from (select rcard, mocode 							from TBLSIMULATION 							where RCARD = '1111' 							order by MDATE desc, MTIME desc) 							where rownum = 1)
+[5812] INFO ****** Start: 2018/08/02 09:21:12.354, End: 2018/08/02 09:21:12.391, Cost: 37.000
+[5812] INFO 
+[5812] INFO ****** Close Connection
+[5812] INFO ****** Start: 2018/08/02 09:21:12.395, End: 2018/08/02 09:21:12.395, Cost: 0.000
+[5812] INFO 
+[5812] INFO ****** Open Connection
+[5812] INFO ****** Start: 2018/08/02 09:21:24.768, End: 2018/08/02 09:21:24.768, Cost: 0.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:21:24.768, End: 2018/08/02 09:21:24.802, Cost: 34.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT orgid,orgdesc,mdate,mtime,muser FROM TBLORG WHERE orgid='1'
+[5812] INFO ****** Start: 2018/08/02 09:21:24.804, End: 2018/08/02 09:21:24.822, Cost: 18.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select opcode, mdate, mtime, resseq, eattribute1, muser, rescode from TBLop2RES where RESCODE ='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:21:24.824, End: 2018/08/02 09:21:24.844, Cost: 20.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT * FROM tblSimulationReport WHERE RCard='1111' ORDER BY MDate DESC,MTime DESC 
+[5812] INFO ****** Start: 2018/08/02 09:21:24.846, End: 2018/08/02 09:21:24.867, Cost: 21.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text :  select  distinct GetTSN('1111','') scard from dual 
+[5812] INFO ****** Start: 2018/08/02 09:21:24.868, End: 2018/08/02 09:21:24.887, Cost: 19.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT * FROM tblSimulationReport WHERE RCard='1111' ORDER BY MDate DESC,MTime DESC 
+[5812] INFO ****** Start: 2018/08/02 09:21:24.888, End: 2018/08/02 09:21:24.909, Cost: 21.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text :  SELECT   imei1, mdate, sn, imei2, cdate, id2, id5, muser, netcode, meid, id3, mtime, ctime, cuser, mocode, psn, eattribute1, tsn, id4, status, id1, serial  FROM  Tblmo2imei  WHERE  1=1   AND   Tsn='1111'   ORDER  BY  MDATE DESC,MTIME DESC 
+[5812] INFO ****** Start: 2018/08/02 09:21:24.910, End: 2018/08/02 09:21:24.928, Cost: 18.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select mocode, itemcode, scard, cartoncode, scardseq, routecode, laction, modelcode, actionlist, rescode, moseq, rmabillcode, ishold, ngtimes, rcard, mtime, rcardseq, fromop, palletcode, fromroute, productstatus, muser, shelfno, eattribute1, tcard, lotno, iscom, tcardseq, idmergerule, opcode, eattribute2, mdate from tblsimulation where 					(rcard,mocode) in ( 					select rcard, mocode 					from (select rcard, mocode 							from TBLSIMULATION 							where RCARD = '1111' 							order by MDATE desc, MTIME desc) 							where rownum = 1)
+[5812] INFO ****** Start: 2018/08/02 09:21:24.929, End: 2018/08/02 09:21:24.951, Cost: 22.000
+[5812] INFO 
+[5812] INFO ****** Close Connection
+[5812] INFO ****** Start: 2018/08/02 09:21:24.952, End: 2018/08/02 09:21:24.952, Cost: 0.000
+[5812] INFO 
+[5812] INFO ****** Open Connection
+[5812] INFO ****** Start: 2018/08/02 09:21:37.056, End: 2018/08/02 09:21:37.056, Cost: 0.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:21:37.056, End: 2018/08/02 09:21:37.085, Cost: 29.000
+[5812] INFO 
+[5812] INFO ****** Open Connection
+[5812] INFO ****** Start: 2018/08/02 09:21:37.092, End: 2018/08/02 09:21:37.092, Cost: 0.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:21:37.092, End: 2018/08/02 09:21:37.128, Cost: 36.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:21:37.130, End: 2018/08/02 09:21:37.149, Cost: 19.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:21:37.153, End: 2018/08/02 09:21:37.170, Cost: 17.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5812] INFO ****** Start: 2018/08/02 09:21:37.173, End: 2018/08/02 09:21:37.191, Cost: 18.000
+[5812] INFO 
+[5812] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='92141',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:21:37.195, End: 2018/08/02 09:21:37.213, Cost: 18.000
+[5812] INFO 
+[5812] INFO ****** Open Connection
+[5812] INFO ****** Start: 2018/08/02 09:21:37.216, End: 2018/08/02 09:21:37.216, Cost: 0.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5812] INFO ****** Start: 2018/08/02 09:21:37.217, End: 2018/08/02 09:21:37.235, Cost: 18.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[5812] INFO ****** Start: 2018/08/02 09:21:37.237, End: 2018/08/02 09:21:37.258, Cost: 21.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7713'
+[5812] INFO ****** Start: 2018/08/02 09:21:37.262, End: 2018/08/02 09:21:37.272, Cost: 10.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5812] INFO ****** Start: 2018/08/02 09:21:37.308, End: 2018/08/02 09:21:37.317, Cost: 9.000
+[5812] INFO 
+[5812] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='92141',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='92141',rescode='BZ02',logindate='20180802',jigcode='',logintime='92101' WHERE serial='7713'
+[5812] INFO ****** Start: 2018/08/02 09:21:37.320, End: 2018/08/02 09:21:37.334, Cost: 14.000
+[5812] INFO 
+[5812] INFO ****** Open Connection
+[5812] INFO ****** Start: 2018/08/02 09:21:37.336, End: 2018/08/02 09:21:37.336, Cost: 0.000
+[5812] INFO 
+[5812] INFO ****** Execute SQL
+[5812] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[5812] INFO ****** Start: 2018/08/02 09:21:37.336, End: 2018/08/02 09:21:37.345, Cost: 9.000
+[5812] INFO 
+[5812] INFO ****** Close Connection
+[5812] INFO ****** Start: 2018/08/02 09:21:37.346, End: 2018/08/02 09:21:37.346, Cost: 0.000
+[5812] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[5064] INFO ****** Open Connection
+[5064] INFO ****** Start: 2018/08/02 09:21:40.406, End: 2018/08/02 09:21:40.631, Cost: 225.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[5064] INFO ****** Start: 2018/08/02 09:21:40.700, End: 2018/08/02 09:21:40.709, Cost: 9.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[5064] INFO ****** Start: 2018/08/02 09:21:40.713, End: 2018/08/02 09:21:40.723, Cost: 10.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[5064] INFO ****** Start: 2018/08/02 09:21:40.728, End: 2018/08/02 09:21:40.734, Cost: 6.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5064] INFO ****** Start: 2018/08/02 09:21:40.735, End: 2018/08/02 09:21:40.742, Cost: 7.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[5064] INFO ****** Start: 2018/08/02 09:21:40.743, End: 2018/08/02 09:21:40.751, Cost: 8.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[5064] INFO ****** Start: 2018/08/02 09:21:40.752, End: 2018/08/02 09:21:40.759, Cost: 7.000
+[5064] INFO 
+[5064] INFO ****** Open Connection
+[5064] INFO ****** Start: 2018/08/02 09:21:40.814, End: 2018/08/02 09:21:40.931, Cost: 117.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5064] INFO ****** Start: 2018/08/02 09:21:40.931, End: 2018/08/02 09:21:40.942, Cost: 11.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5064] INFO ****** Start: 2018/08/02 09:21:40.946, End: 2018/08/02 09:21:40.957, Cost: 11.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5064] INFO ****** Start: 2018/08/02 09:21:40.964, End: 2018/08/02 09:21:40.975, Cost: 11.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5064] INFO ****** Start: 2018/08/02 09:21:40.977, End: 2018/08/02 09:21:40.986, Cost: 9.000
+[5064] INFO 
+[5064] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='92145',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[5064] INFO ****** Start: 2018/08/02 09:21:40.994, End: 2018/08/02 09:21:41.004, Cost: 10.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5064] INFO ****** Start: 2018/08/02 09:21:41.004, End: 2018/08/02 09:21:41.011, Cost: 7.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[5064] INFO ****** Start: 2018/08/02 09:21:41.014, End: 2018/08/02 09:21:41.024, Cost: 10.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5064] INFO ****** Start: 2018/08/02 09:21:41.024, End: 2018/08/02 09:21:41.051, Cost: 27.000
+[5064] INFO 
+[5064] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','92145','BZ02','20180802','0','','92145')
+[5064] INFO ****** Start: 2018/08/02 09:21:41.055, End: 2018/08/02 09:21:41.066, Cost: 11.000
+[5064] INFO 
+[5064] INFO ****** Open Connection
+[5064] INFO ****** Start: 2018/08/02 09:21:41.072, End: 2018/08/02 09:21:41.201, Cost: 129.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[5064] INFO ****** Start: 2018/08/02 09:21:41.201, End: 2018/08/02 09:21:41.211, Cost: 10.000
+[5064] INFO 
+[5064] INFO ****** Close Connection
+[5064] INFO ****** Start: 2018/08/02 09:21:41.214, End: 2018/08/02 09:21:41.214, Cost: 0.000
+[5064] INFO 
+[5064] INFO ****** Open Connection
+[5064] INFO ****** Start: 2018/08/02 09:40:01.081, End: 2018/08/02 09:40:01.327, Cost: 246.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5064] INFO ****** Start: 2018/08/02 09:40:01.328, End: 2018/08/02 09:40:01.345, Cost: 17.000
+[5064] INFO 
+[5064] INFO ****** Open Connection
+[5064] INFO ****** Start: 2018/08/02 09:40:01.364, End: 2018/08/02 09:40:01.479, Cost: 115.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5064] INFO ****** Start: 2018/08/02 09:40:01.480, End: 2018/08/02 09:40:01.491, Cost: 11.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5064] INFO ****** Start: 2018/08/02 09:40:01.493, End: 2018/08/02 09:40:01.504, Cost: 11.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[5064] INFO ****** Start: 2018/08/02 09:40:01.509, End: 2018/08/02 09:40:01.519, Cost: 10.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5064] INFO ****** Start: 2018/08/02 09:40:01.521, End: 2018/08/02 09:40:01.529, Cost: 8.000
+[5064] INFO 
+[5064] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='94005',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[5064] INFO ****** Start: 2018/08/02 09:40:01.533, End: 2018/08/02 09:40:01.543, Cost: 10.000
+[5064] INFO 
+[5064] INFO ****** Open Connection
+[5064] INFO ****** Start: 2018/08/02 09:40:01.547, End: 2018/08/02 09:40:01.547, Cost: 0.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5064] INFO ****** Start: 2018/08/02 09:40:01.548, End: 2018/08/02 09:40:01.557, Cost: 9.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[5064] INFO ****** Start: 2018/08/02 09:40:01.559, End: 2018/08/02 09:40:01.571, Cost: 12.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7714'
+[5064] INFO ****** Start: 2018/08/02 09:40:01.575, End: 2018/08/02 09:40:01.587, Cost: 12.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[5064] INFO ****** Start: 2018/08/02 09:40:01.589, End: 2018/08/02 09:40:01.598, Cost: 9.000
+[5064] INFO 
+[5064] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='94005',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='94005',rescode='BZ02',logindate='20180802',jigcode='',logintime='92145' WHERE serial='7714'
+[5064] INFO ****** Start: 2018/08/02 09:40:01.601, End: 2018/08/02 09:40:01.610, Cost: 9.000
+[5064] INFO 
+[5064] INFO ****** Open Connection
+[5064] INFO ****** Start: 2018/08/02 09:40:01.614, End: 2018/08/02 09:40:01.718, Cost: 104.000
+[5064] INFO 
+[5064] INFO ****** Execute SQL
+[5064] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[5064] INFO ****** Start: 2018/08/02 09:40:01.718, End: 2018/08/02 09:40:01.727, Cost: 9.000
+[5064] INFO 
+[5064] INFO ****** Close Connection
+[5064] INFO ****** Start: 2018/08/02 09:40:01.728, End: 2018/08/02 09:40:01.728, Cost: 0.000
+[5064] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[4824] INFO ****** Open Connection
+[4824] INFO ****** Start: 2018/08/02 09:59:15.044, End: 2018/08/02 09:59:15.345, Cost: 301.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[4824] INFO ****** Start: 2018/08/02 09:59:15.425, End: 2018/08/02 09:59:15.485, Cost: 60.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[4824] INFO ****** Start: 2018/08/02 09:59:15.501, End: 2018/08/02 09:59:15.524, Cost: 23.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[4824] INFO ****** Start: 2018/08/02 09:59:15.532, End: 2018/08/02 09:59:15.557, Cost: 25.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 09:59:15.560, End: 2018/08/02 09:59:15.581, Cost: 21.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[4824] INFO ****** Start: 2018/08/02 09:59:15.585, End: 2018/08/02 09:59:15.605, Cost: 20.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[4824] INFO ****** Start: 2018/08/02 09:59:15.609, End: 2018/08/02 09:59:15.626, Cost: 17.000
+[4824] INFO 
+[4824] INFO ****** Open Connection
+[4824] INFO ****** Start: 2018/08/02 09:59:15.718, End: 2018/08/02 09:59:15.988, Cost: 270.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 09:59:15.989, End: 2018/08/02 09:59:16.012, Cost: 23.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 09:59:16.016, End: 2018/08/02 09:59:16.033, Cost: 17.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 09:59:16.047, End: 2018/08/02 09:59:16.077, Cost: 30.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4824] INFO ****** Start: 2018/08/02 09:59:16.081, End: 2018/08/02 09:59:16.096, Cost: 15.000
+[4824] INFO 
+[4824] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='95920',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 09:59:16.113, End: 2018/08/02 09:59:16.141, Cost: 28.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4824] INFO ****** Start: 2018/08/02 09:59:16.141, End: 2018/08/02 09:59:16.164, Cost: 23.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[4824] INFO ****** Start: 2018/08/02 09:59:16.170, End: 2018/08/02 09:59:16.185, Cost: 15.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4824] INFO ****** Start: 2018/08/02 09:59:16.186, End: 2018/08/02 09:59:16.206, Cost: 20.000
+[4824] INFO 
+[4824] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','95920','BZ02','20180802','0','','95920')
+[4824] INFO ****** Start: 2018/08/02 09:59:16.211, End: 2018/08/02 09:59:16.227, Cost: 16.000
+[4824] INFO 
+[4824] INFO ****** Open Connection
+[4824] INFO ****** Start: 2018/08/02 09:59:16.234, End: 2018/08/02 09:59:16.495, Cost: 261.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[4824] INFO ****** Start: 2018/08/02 09:59:16.496, End: 2018/08/02 09:59:16.517, Cost: 21.000
+[4824] INFO 
+[4824] INFO ****** Close Connection
+[4824] INFO ****** Start: 2018/08/02 09:59:16.520, End: 2018/08/02 09:59:16.520, Cost: 0.000
+[4824] INFO 
+[4824] INFO ****** Open Connection
+[4824] INFO ****** Start: 2018/08/02 09:59:39.427, End: 2018/08/02 09:59:39.427, Cost: 0.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 09:59:39.428, End: 2018/08/02 09:59:39.439, Cost: 11.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT orgid,orgdesc,mdate,mtime,muser FROM TBLORG WHERE orgid='1'
+[4824] INFO ****** Start: 2018/08/02 09:59:39.440, End: 2018/08/02 09:59:39.449, Cost: 9.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select opcode, mdate, mtime, resseq, eattribute1, muser, rescode from TBLop2RES where RESCODE ='BZ02'
+[4824] INFO ****** Start: 2018/08/02 09:59:39.451, End: 2018/08/02 09:59:39.459, Cost: 8.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT * FROM tblSimulationReport WHERE RCard='201806020001' ORDER BY MDate DESC,MTime DESC 
+[4824] INFO ****** Start: 2018/08/02 09:59:39.465, End: 2018/08/02 09:59:39.475, Cost: 10.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text :  select  distinct GetTSN('201806020001','') scard from dual 
+[4824] INFO ****** Start: 2018/08/02 09:59:39.477, End: 2018/08/02 09:59:39.493, Cost: 16.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT * FROM tblSimulationReport WHERE RCard='201806020001' ORDER BY MDate DESC,MTime DESC 
+[4824] INFO ****** Start: 2018/08/02 09:59:39.495, End: 2018/08/02 09:59:39.508, Cost: 13.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text :  SELECT   imei1, mdate, sn, imei2, cdate, id2, id5, muser, netcode, meid, id3, mtime, ctime, cuser, mocode, psn, eattribute1, tsn, id4, status, id1, serial  FROM  Tblmo2imei  WHERE  1=1   AND   Tsn='201806020001'   ORDER  BY  MDATE DESC,MTIME DESC 
+[4824] INFO ****** Start: 2018/08/02 09:59:39.512, End: 2018/08/02 09:59:39.523, Cost: 11.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select mocode, itemcode, scard, cartoncode, scardseq, routecode, laction, modelcode, actionlist, rescode, moseq, rmabillcode, ishold, ngtimes, rcard, mtime, rcardseq, fromop, palletcode, fromroute, productstatus, muser, shelfno, eattribute1, tcard, lotno, iscom, tcardseq, idmergerule, opcode, eattribute2, mdate from tblsimulation where 					(rcard,mocode) in ( 					select rcard, mocode 					from (select rcard, mocode 							from TBLSIMULATION 							where RCARD = '201806020001' 							order by MDATE desc, MTIME desc) 							where rownum = 1)
+[4824] INFO ****** Start: 2018/08/02 09:59:39.529, End: 2018/08/02 09:59:39.566, Cost: 37.000
+[4824] INFO 
+[4824] INFO ****** Close Connection
+[4824] INFO ****** Start: 2018/08/02 09:59:39.568, End: 2018/08/02 09:59:39.568, Cost: 0.000
+[4824] INFO 
+[4824] INFO ****** Open Connection
+[4824] INFO ****** Start: 2018/08/02 09:59:42.112, End: 2018/08/02 09:59:42.112, Cost: 0.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 09:59:42.113, End: 2018/08/02 09:59:42.137, Cost: 24.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT orgid,orgdesc,mdate,mtime,muser FROM TBLORG WHERE orgid='1'
+[4824] INFO ****** Start: 2018/08/02 09:59:42.139, End: 2018/08/02 09:59:42.158, Cost: 19.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select opcode, mdate, mtime, resseq, eattribute1, muser, rescode from TBLop2RES where RESCODE ='BZ02'
+[4824] INFO ****** Start: 2018/08/02 09:59:42.159, End: 2018/08/02 09:59:42.179, Cost: 20.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT * FROM tblSimulationReport WHERE RCard='201806020001' ORDER BY MDate DESC,MTime DESC 
+[4824] INFO ****** Start: 2018/08/02 09:59:42.180, End: 2018/08/02 09:59:42.202, Cost: 22.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text :  select  distinct GetTSN('201806020001','') scard from dual 
+[4824] INFO ****** Start: 2018/08/02 09:59:42.203, End: 2018/08/02 09:59:42.223, Cost: 20.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT * FROM tblSimulationReport WHERE RCard='201806020001' ORDER BY MDate DESC,MTime DESC 
+[4824] INFO ****** Start: 2018/08/02 09:59:42.225, End: 2018/08/02 09:59:42.244, Cost: 19.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text :  SELECT   imei1, mdate, sn, imei2, cdate, id2, id5, muser, netcode, meid, id3, mtime, ctime, cuser, mocode, psn, eattribute1, tsn, id4, status, id1, serial  FROM  Tblmo2imei  WHERE  1=1   AND   Tsn='201806020001'   ORDER  BY  MDATE DESC,MTIME DESC 
+[4824] INFO ****** Start: 2018/08/02 09:59:42.245, End: 2018/08/02 09:59:42.289, Cost: 44.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select mocode, itemcode, scard, cartoncode, scardseq, routecode, laction, modelcode, actionlist, rescode, moseq, rmabillcode, ishold, ngtimes, rcard, mtime, rcardseq, fromop, palletcode, fromroute, productstatus, muser, shelfno, eattribute1, tcard, lotno, iscom, tcardseq, idmergerule, opcode, eattribute2, mdate from tblsimulation where 					(rcard,mocode) in ( 					select rcard, mocode 					from (select rcard, mocode 							from TBLSIMULATION 							where RCARD = '201806020001' 							order by MDATE desc, MTIME desc) 							where rownum = 1)
+[4824] INFO ****** Start: 2018/08/02 09:59:42.290, End: 2018/08/02 09:59:42.311, Cost: 21.000
+[4824] INFO 
+[4824] INFO ****** Close Connection
+[4824] INFO ****** Start: 2018/08/02 09:59:42.312, End: 2018/08/02 09:59:42.312, Cost: 0.000
+[4824] INFO 
+[4824] INFO ****** Open Connection
+[4824] INFO ****** Start: 2018/08/02 10:05:08.553, End: 2018/08/02 10:05:08.872, Cost: 319.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 10:05:08.873, End: 2018/08/02 10:05:08.897, Cost: 24.000
+[4824] INFO 
+[4824] INFO ****** Open Connection
+[4824] INFO ****** Start: 2018/08/02 10:05:08.904, End: 2018/08/02 10:05:09.105, Cost: 201.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 10:05:09.105, End: 2018/08/02 10:05:09.121, Cost: 16.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 10:05:09.143, End: 2018/08/02 10:05:09.160, Cost: 17.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 10:05:09.164, End: 2018/08/02 10:05:09.180, Cost: 16.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4824] INFO ****** Start: 2018/08/02 10:05:09.183, End: 2018/08/02 10:05:09.191, Cost: 8.000
+[4824] INFO 
+[4824] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='100513',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 10:05:09.195, End: 2018/08/02 10:05:09.204, Cost: 9.000
+[4824] INFO 
+[4824] INFO ****** Open Connection
+[4824] INFO ****** Start: 2018/08/02 10:05:09.208, End: 2018/08/02 10:05:09.208, Cost: 0.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4824] INFO ****** Start: 2018/08/02 10:05:09.208, End: 2018/08/02 10:05:09.220, Cost: 12.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[4824] INFO ****** Start: 2018/08/02 10:05:09.222, End: 2018/08/02 10:05:09.240, Cost: 18.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7715'
+[4824] INFO ****** Start: 2018/08/02 10:05:09.243, End: 2018/08/02 10:05:09.254, Cost: 11.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4824] INFO ****** Start: 2018/08/02 10:05:09.256, End: 2018/08/02 10:05:09.275, Cost: 19.000
+[4824] INFO 
+[4824] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='100513',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='100513',rescode='BZ02',logindate='20180802',jigcode='',logintime='95920' WHERE serial='7715'
+[4824] INFO ****** Start: 2018/08/02 10:05:09.278, End: 2018/08/02 10:05:09.293, Cost: 15.000
+[4824] INFO 
+[4824] INFO ****** Open Connection
+[4824] INFO ****** Start: 2018/08/02 10:05:09.297, End: 2018/08/02 10:05:09.405, Cost: 108.000
+[4824] INFO 
+[4824] INFO ****** Execute SQL
+[4824] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[4824] INFO ****** Start: 2018/08/02 10:05:09.406, End: 2018/08/02 10:05:09.415, Cost: 9.000
+[4824] INFO 
+[4824] INFO ****** Close Connection
+[4824] INFO ****** Start: 2018/08/02 10:05:09.416, End: 2018/08/02 10:05:09.416, Cost: 0.000
+[4824] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[4264] INFO ****** Open Connection
+[4264] INFO ****** Start: 2018/08/02 10:06:57.403, End: 2018/08/02 10:06:57.797, Cost: 394.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[4264] INFO ****** Start: 2018/08/02 10:06:57.907, End: 2018/08/02 10:06:57.935, Cost: 28.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[4264] INFO ****** Start: 2018/08/02 10:06:57.940, End: 2018/08/02 10:06:57.955, Cost: 15.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[4264] INFO ****** Start: 2018/08/02 10:06:57.967, End: 2018/08/02 10:06:57.977, Cost: 10.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4264] INFO ****** Start: 2018/08/02 10:06:57.981, End: 2018/08/02 10:06:58.000, Cost: 19.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[4264] INFO ****** Start: 2018/08/02 10:06:58.004, End: 2018/08/02 10:06:58.023, Cost: 19.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[4264] INFO ****** Start: 2018/08/02 10:06:58.027, End: 2018/08/02 10:06:58.046, Cost: 19.000
+[4264] INFO 
+[4264] INFO ****** Open Connection
+[4264] INFO ****** Start: 2018/08/02 10:06:58.198, End: 2018/08/02 10:06:58.558, Cost: 360.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4264] INFO ****** Start: 2018/08/02 10:06:58.558, End: 2018/08/02 10:06:58.628, Cost: 70.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4264] INFO ****** Start: 2018/08/02 10:06:58.631, End: 2018/08/02 10:06:58.672, Cost: 41.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4264] INFO ****** Start: 2018/08/02 10:06:58.682, End: 2018/08/02 10:06:58.714, Cost: 32.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4264] INFO ****** Start: 2018/08/02 10:06:58.717, End: 2018/08/02 10:06:58.735, Cost: 18.000
+[4264] INFO 
+[4264] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='100702',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[4264] INFO ****** Start: 2018/08/02 10:06:58.752, End: 2018/08/02 10:06:58.778, Cost: 26.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4264] INFO ****** Start: 2018/08/02 10:06:58.779, End: 2018/08/02 10:06:58.802, Cost: 23.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[4264] INFO ****** Start: 2018/08/02 10:06:58.808, End: 2018/08/02 10:06:58.824, Cost: 16.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4264] INFO ****** Start: 2018/08/02 10:06:58.825, End: 2018/08/02 10:06:58.849, Cost: 24.000
+[4264] INFO 
+[4264] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','100703','BZ02','20180802','0','','100702')
+[4264] INFO ****** Start: 2018/08/02 10:06:58.854, End: 2018/08/02 10:06:58.873, Cost: 19.000
+[4264] INFO 
+[4264] INFO ****** Open Connection
+[4264] INFO ****** Start: 2018/08/02 10:06:58.880, End: 2018/08/02 10:06:59.253, Cost: 373.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[4264] INFO ****** Start: 2018/08/02 10:06:59.253, End: 2018/08/02 10:06:59.274, Cost: 21.000
+[4264] INFO 
+[4264] INFO ****** Close Connection
+[4264] INFO ****** Start: 2018/08/02 10:06:59.274, End: 2018/08/02 10:06:59.274, Cost: 0.000
+[4264] INFO 
+[4264] INFO ****** Open Connection
+[4264] INFO ****** Start: 2018/08/02 10:07:02.160, End: 2018/08/02 10:07:02.161, Cost: 1.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4264] INFO ****** Start: 2018/08/02 10:07:02.161, End: 2018/08/02 10:07:02.172, Cost: 11.000
+[4264] INFO 
+[4264] INFO ****** Open Connection
+[4264] INFO ****** Start: 2018/08/02 10:07:02.179, End: 2018/08/02 10:07:02.293, Cost: 114.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4264] INFO ****** Start: 2018/08/02 10:07:02.302, End: 2018/08/02 10:07:02.327, Cost: 25.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4264] INFO ****** Start: 2018/08/02 10:07:02.328, End: 2018/08/02 10:07:02.337, Cost: 9.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4264] INFO ****** Start: 2018/08/02 10:07:02.340, End: 2018/08/02 10:07:02.350, Cost: 10.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4264] INFO ****** Start: 2018/08/02 10:07:02.350, End: 2018/08/02 10:07:02.357, Cost: 7.000
+[4264] INFO 
+[4264] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='100706',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[4264] INFO ****** Start: 2018/08/02 10:07:02.358, End: 2018/08/02 10:07:02.369, Cost: 11.000
+[4264] INFO 
+[4264] INFO ****** Open Connection
+[4264] INFO ****** Start: 2018/08/02 10:07:02.369, End: 2018/08/02 10:07:02.370, Cost: 1.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4264] INFO ****** Start: 2018/08/02 10:07:02.370, End: 2018/08/02 10:07:02.376, Cost: 6.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[4264] INFO ****** Start: 2018/08/02 10:07:02.377, End: 2018/08/02 10:07:02.396, Cost: 19.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7719'
+[4264] INFO ****** Start: 2018/08/02 10:07:02.398, End: 2018/08/02 10:07:02.408, Cost: 10.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4264] INFO ****** Start: 2018/08/02 10:07:02.410, End: 2018/08/02 10:07:02.417, Cost: 7.000
+[4264] INFO 
+[4264] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='100706',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='100706',rescode='BZ02',logindate='20180802',jigcode='',logintime='100702' WHERE serial='7719'
+[4264] INFO ****** Start: 2018/08/02 10:07:02.420, End: 2018/08/02 10:07:02.430, Cost: 10.000
+[4264] INFO 
+[4264] INFO ****** Open Connection
+[4264] INFO ****** Start: 2018/08/02 10:07:02.434, End: 2018/08/02 10:07:02.434, Cost: 0.000
+[4264] INFO 
+[4264] INFO ****** Execute SQL
+[4264] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[4264] INFO ****** Start: 2018/08/02 10:07:02.434, End: 2018/08/02 10:07:02.442, Cost: 8.000
+[4264] INFO 
+[4264] INFO ****** Close Connection
+[4264] INFO ****** Start: 2018/08/02 10:07:02.443, End: 2018/08/02 10:07:02.443, Cost: 0.000
+[4264] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[1688] INFO ****** Open Connection
+[1688] INFO ****** Start: 2018/08/02 10:20:50.183, End: 2018/08/02 10:20:50.603, Cost: 420.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[1688] INFO ****** Start: 2018/08/02 10:20:50.708, End: 2018/08/02 10:20:50.750, Cost: 42.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[1688] INFO ****** Start: 2018/08/02 10:20:50.766, End: 2018/08/02 10:20:50.782, Cost: 16.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[1688] INFO ****** Start: 2018/08/02 10:20:50.800, End: 2018/08/02 10:20:50.824, Cost: 24.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[1688] INFO ****** Start: 2018/08/02 10:20:50.828, End: 2018/08/02 10:20:50.871, Cost: 43.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[1688] INFO ****** Start: 2018/08/02 10:20:50.875, End: 2018/08/02 10:20:50.905, Cost: 30.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[1688] INFO ****** Start: 2018/08/02 10:20:50.909, End: 2018/08/02 10:20:50.939, Cost: 30.000
+[1688] INFO 
+[1688] INFO ****** Open Connection
+[1688] INFO ****** Start: 2018/08/02 10:20:51.048, End: 2018/08/02 10:20:51.165, Cost: 117.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[1688] INFO ****** Start: 2018/08/02 10:20:51.165, End: 2018/08/02 10:20:51.178, Cost: 13.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[1688] INFO ****** Start: 2018/08/02 10:20:51.182, End: 2018/08/02 10:20:51.193, Cost: 11.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[1688] INFO ****** Start: 2018/08/02 10:20:51.207, End: 2018/08/02 10:20:51.219, Cost: 12.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[1688] INFO ****** Start: 2018/08/02 10:20:51.223, End: 2018/08/02 10:20:51.231, Cost: 8.000
+[1688] INFO 
+[1688] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='102055',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[1688] INFO ****** Start: 2018/08/02 10:20:51.247, End: 2018/08/02 10:20:51.258, Cost: 11.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[1688] INFO ****** Start: 2018/08/02 10:20:51.258, End: 2018/08/02 10:20:51.272, Cost: 14.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[1688] INFO ****** Start: 2018/08/02 10:20:51.275, End: 2018/08/02 10:20:51.285, Cost: 10.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[1688] INFO ****** Start: 2018/08/02 10:20:51.286, End: 2018/08/02 10:20:51.294, Cost: 8.000
+[1688] INFO 
+[1688] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','102055','BZ02','20180802','0','','102055')
+[1688] INFO ****** Start: 2018/08/02 10:20:51.299, End: 2018/08/02 10:20:51.308, Cost: 9.000
+[1688] INFO 
+[1688] INFO ****** Open Connection
+[1688] INFO ****** Start: 2018/08/02 10:20:51.315, End: 2018/08/02 10:20:51.477, Cost: 162.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[1688] INFO ****** Start: 2018/08/02 10:20:51.477, End: 2018/08/02 10:20:51.495, Cost: 18.000
+[1688] INFO 
+[1688] INFO ****** Close Connection
+[1688] INFO ****** Start: 2018/08/02 10:20:51.498, End: 2018/08/02 10:20:51.498, Cost: 0.000
+[1688] INFO 
+[1688] INFO ****** Open Connection
+[1688] INFO ****** Start: 2018/08/02 10:20:57.734, End: 2018/08/02 10:20:57.735, Cost: 1.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[1688] INFO ****** Start: 2018/08/02 10:20:57.735, End: 2018/08/02 10:20:57.747, Cost: 12.000
+[1688] INFO 
+[1688] INFO ****** Open Connection
+[1688] INFO ****** Start: 2018/08/02 10:20:57.755, End: 2018/08/02 10:20:57.982, Cost: 227.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[1688] INFO ****** Start: 2018/08/02 10:20:57.982, End: 2018/08/02 10:20:58.034, Cost: 52.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[1688] INFO ****** Start: 2018/08/02 10:20:58.037, End: 2018/08/02 10:20:58.060, Cost: 23.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[1688] INFO ****** Start: 2018/08/02 10:20:58.064, End: 2018/08/02 10:20:58.074, Cost: 10.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[1688] INFO ****** Start: 2018/08/02 10:20:58.076, End: 2018/08/02 10:20:58.083, Cost: 7.000
+[1688] INFO 
+[1688] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='102102',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[1688] INFO ****** Start: 2018/08/02 10:20:58.087, End: 2018/08/02 10:20:58.096, Cost: 9.000
+[1688] INFO 
+[1688] INFO ****** Open Connection
+[1688] INFO ****** Start: 2018/08/02 10:20:58.099, End: 2018/08/02 10:20:58.099, Cost: 0.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[1688] INFO ****** Start: 2018/08/02 10:20:58.100, End: 2018/08/02 10:20:58.113, Cost: 13.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[1688] INFO ****** Start: 2018/08/02 10:20:58.116, End: 2018/08/02 10:20:58.146, Cost: 30.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7726'
+[1688] INFO ****** Start: 2018/08/02 10:20:58.150, End: 2018/08/02 10:20:58.178, Cost: 28.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[1688] INFO ****** Start: 2018/08/02 10:20:58.180, End: 2018/08/02 10:20:58.203, Cost: 23.000
+[1688] INFO 
+[1688] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='102102',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='102102',rescode='BZ02',logindate='20180802',jigcode='',logintime='102055' WHERE serial='7726'
+[1688] INFO ****** Start: 2018/08/02 10:20:58.206, End: 2018/08/02 10:20:58.232, Cost: 26.000
+[1688] INFO 
+[1688] INFO ****** Open Connection
+[1688] INFO ****** Start: 2018/08/02 10:20:58.236, End: 2018/08/02 10:20:58.237, Cost: 1.000
+[1688] INFO 
+[1688] INFO ****** Execute SQL
+[1688] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[1688] INFO ****** Start: 2018/08/02 10:20:58.237, End: 2018/08/02 10:20:58.258, Cost: 21.000
+[1688] INFO 
+[1688] INFO ****** Close Connection
+[1688] INFO ****** Start: 2018/08/02 10:20:58.259, End: 2018/08/02 10:20:58.259, Cost: 0.000
+[1688] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[6764] INFO ****** Open Connection
+[6764] INFO ****** Start: 2018/08/02 10:24:47.569, End: 2018/08/02 10:24:47.864, Cost: 295.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6764] INFO ****** Start: 2018/08/02 10:24:47.962, End: 2018/08/02 10:24:47.974, Cost: 12.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6764] INFO ****** Start: 2018/08/02 10:24:47.978, End: 2018/08/02 10:24:47.990, Cost: 12.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6764] INFO ****** Start: 2018/08/02 10:24:47.996, End: 2018/08/02 10:24:48.006, Cost: 10.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6764] INFO ****** Start: 2018/08/02 10:24:48.008, End: 2018/08/02 10:24:48.017, Cost: 9.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6764] INFO ****** Start: 2018/08/02 10:24:48.018, End: 2018/08/02 10:24:48.067, Cost: 49.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[6764] INFO ****** Start: 2018/08/02 10:24:48.071, End: 2018/08/02 10:24:48.091, Cost: 20.000
+[6764] INFO 
+[6764] INFO ****** Open Connection
+[6764] INFO ****** Start: 2018/08/02 10:24:48.200, End: 2018/08/02 10:24:48.491, Cost: 291.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6764] INFO ****** Start: 2018/08/02 10:24:48.491, End: 2018/08/02 10:24:48.514, Cost: 23.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6764] INFO ****** Start: 2018/08/02 10:24:48.518, End: 2018/08/02 10:24:48.536, Cost: 18.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6764] INFO ****** Start: 2018/08/02 10:24:48.544, End: 2018/08/02 10:24:48.605, Cost: 61.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6764] INFO ****** Start: 2018/08/02 10:24:48.609, End: 2018/08/02 10:24:48.626, Cost: 17.000
+[6764] INFO 
+[6764] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='102452',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6764] INFO ****** Start: 2018/08/02 10:24:48.643, End: 2018/08/02 10:24:48.669, Cost: 26.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6764] INFO ****** Start: 2018/08/02 10:24:48.670, End: 2018/08/02 10:24:48.690, Cost: 20.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[6764] INFO ****** Start: 2018/08/02 10:24:48.697, End: 2018/08/02 10:24:48.711, Cost: 14.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6764] INFO ****** Start: 2018/08/02 10:24:48.713, End: 2018/08/02 10:24:48.757, Cost: 44.000
+[6764] INFO 
+[6764] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','102452','BZ02','20180802','0','','102452')
+[6764] INFO ****** Start: 2018/08/02 10:24:48.763, End: 2018/08/02 10:24:48.778, Cost: 15.000
+[6764] INFO 
+[6764] INFO ****** Open Connection
+[6764] INFO ****** Start: 2018/08/02 10:24:48.785, End: 2018/08/02 10:24:49.019, Cost: 234.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[6764] INFO ****** Start: 2018/08/02 10:24:49.019, End: 2018/08/02 10:24:49.032, Cost: 13.000
+[6764] INFO 
+[6764] INFO ****** Close Connection
+[6764] INFO ****** Start: 2018/08/02 10:24:49.034, End: 2018/08/02 10:24:49.035, Cost: 1.000
+[6764] INFO 
+[6764] INFO ****** Open Connection
+[6764] INFO ****** Start: 2018/08/02 10:25:40.704, End: 2018/08/02 10:25:40.705, Cost: 1.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6764] INFO ****** Start: 2018/08/02 10:25:40.705, End: 2018/08/02 10:25:40.716, Cost: 11.000
+[6764] INFO 
+[6764] INFO ****** Open Connection
+[6764] INFO ****** Start: 2018/08/02 10:25:40.722, End: 2018/08/02 10:25:40.722, Cost: 0.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6764] INFO ****** Start: 2018/08/02 10:25:40.722, End: 2018/08/02 10:25:40.734, Cost: 12.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6764] INFO ****** Start: 2018/08/02 10:25:40.736, End: 2018/08/02 10:25:40.747, Cost: 11.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6764] INFO ****** Start: 2018/08/02 10:25:40.751, End: 2018/08/02 10:25:40.762, Cost: 11.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6764] INFO ****** Start: 2018/08/02 10:25:40.764, End: 2018/08/02 10:25:40.772, Cost: 8.000
+[6764] INFO 
+[6764] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='102544',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6764] INFO ****** Start: 2018/08/02 10:25:40.775, End: 2018/08/02 10:25:40.785, Cost: 10.000
+[6764] INFO 
+[6764] INFO ****** Open Connection
+[6764] INFO ****** Start: 2018/08/02 10:25:40.788, End: 2018/08/02 10:25:40.788, Cost: 0.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6764] INFO ****** Start: 2018/08/02 10:25:40.788, End: 2018/08/02 10:25:40.796, Cost: 8.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[6764] INFO ****** Start: 2018/08/02 10:25:40.798, End: 2018/08/02 10:25:40.809, Cost: 11.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7729'
+[6764] INFO ****** Start: 2018/08/02 10:25:40.812, End: 2018/08/02 10:25:40.821, Cost: 9.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6764] INFO ****** Start: 2018/08/02 10:25:40.823, End: 2018/08/02 10:25:40.832, Cost: 9.000
+[6764] INFO 
+[6764] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='102544',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='102545',rescode='BZ02',logindate='20180802',jigcode='',logintime='102452' WHERE serial='7729'
+[6764] INFO ****** Start: 2018/08/02 10:25:40.834, End: 2018/08/02 10:25:40.844, Cost: 10.000
+[6764] INFO 
+[6764] INFO ****** Open Connection
+[6764] INFO ****** Start: 2018/08/02 10:25:40.848, End: 2018/08/02 10:25:41.012, Cost: 164.000
+[6764] INFO 
+[6764] INFO ****** Execute SQL
+[6764] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[6764] INFO ****** Start: 2018/08/02 10:25:41.013, End: 2018/08/02 10:25:41.022, Cost: 9.000
+[6764] INFO 
+[6764] INFO ****** Close Connection
+[6764] INFO ****** Start: 2018/08/02 10:25:41.022, End: 2018/08/02 10:25:41.022, Cost: 0.000
+[6764] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[6504] INFO ****** Open Connection
+[6504] INFO ****** Start: 2018/08/02 11:26:31.413, End: 2018/08/02 11:26:31.749, Cost: 336.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6504] INFO ****** Start: 2018/08/02 11:26:31.832, End: 2018/08/02 11:26:31.842, Cost: 10.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6504] INFO ****** Start: 2018/08/02 11:26:31.846, End: 2018/08/02 11:26:31.853, Cost: 7.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6504] INFO ****** Start: 2018/08/02 11:26:31.857, End: 2018/08/02 11:26:31.865, Cost: 8.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6504] INFO ****** Start: 2018/08/02 11:26:31.866, End: 2018/08/02 11:26:31.874, Cost: 8.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6504] INFO ****** Start: 2018/08/02 11:26:31.875, End: 2018/08/02 11:26:31.882, Cost: 7.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[6504] INFO ****** Start: 2018/08/02 11:26:31.883, End: 2018/08/02 11:26:31.890, Cost: 7.000
+[6504] INFO 
+[6504] INFO ****** Open Connection
+[6504] INFO ****** Start: 2018/08/02 11:26:31.947, End: 2018/08/02 11:26:32.062, Cost: 115.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6504] INFO ****** Start: 2018/08/02 11:26:32.063, End: 2018/08/02 11:26:32.074, Cost: 11.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6504] INFO ****** Start: 2018/08/02 11:26:32.079, End: 2018/08/02 11:26:32.089, Cost: 10.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6504] INFO ****** Start: 2018/08/02 11:26:32.101, End: 2018/08/02 11:26:32.110, Cost: 9.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6504] INFO ****** Start: 2018/08/02 11:26:32.112, End: 2018/08/02 11:26:32.120, Cost: 8.000
+[6504] INFO 
+[6504] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='112636',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6504] INFO ****** Start: 2018/08/02 11:26:32.127, End: 2018/08/02 11:26:32.136, Cost: 9.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6504] INFO ****** Start: 2018/08/02 11:26:32.137, End: 2018/08/02 11:26:32.144, Cost: 7.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[6504] INFO ****** Start: 2018/08/02 11:26:32.146, End: 2018/08/02 11:26:32.155, Cost: 9.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6504] INFO ****** Start: 2018/08/02 11:26:32.156, End: 2018/08/02 11:26:32.165, Cost: 9.000
+[6504] INFO 
+[6504] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','112636','BZ02','20180802','0','','112636')
+[6504] INFO ****** Start: 2018/08/02 11:26:32.167, End: 2018/08/02 11:26:32.175, Cost: 8.000
+[6504] INFO 
+[6504] INFO ****** Open Connection
+[6504] INFO ****** Start: 2018/08/02 11:26:32.178, End: 2018/08/02 11:26:32.304, Cost: 126.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[6504] INFO ****** Start: 2018/08/02 11:26:32.304, End: 2018/08/02 11:26:32.316, Cost: 12.000
+[6504] INFO 
+[6504] INFO ****** Close Connection
+[6504] INFO ****** Start: 2018/08/02 11:26:32.318, End: 2018/08/02 11:26:32.318, Cost: 0.000
+[6504] INFO 
+[6504] INFO ****** Open Connection
+[6504] INFO ****** Start: 2018/08/02 11:26:36.100, End: 2018/08/02 11:26:36.101, Cost: 1.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6504] INFO ****** Start: 2018/08/02 11:26:36.101, End: 2018/08/02 11:26:36.109, Cost: 8.000
+[6504] INFO 
+[6504] INFO ****** Open Connection
+[6504] INFO ****** Start: 2018/08/02 11:26:36.114, End: 2018/08/02 11:26:36.224, Cost: 110.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6504] INFO ****** Start: 2018/08/02 11:26:36.224, End: 2018/08/02 11:26:36.237, Cost: 13.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6504] INFO ****** Start: 2018/08/02 11:26:36.239, End: 2018/08/02 11:26:36.249, Cost: 10.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6504] INFO ****** Start: 2018/08/02 11:26:36.253, End: 2018/08/02 11:26:36.278, Cost: 25.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6504] INFO ****** Start: 2018/08/02 11:26:36.281, End: 2018/08/02 11:26:36.290, Cost: 9.000
+[6504] INFO 
+[6504] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='112640',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6504] INFO ****** Start: 2018/08/02 11:26:36.293, End: 2018/08/02 11:26:36.302, Cost: 9.000
+[6504] INFO 
+[6504] INFO ****** Open Connection
+[6504] INFO ****** Start: 2018/08/02 11:26:36.306, End: 2018/08/02 11:26:36.306, Cost: 0.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6504] INFO ****** Start: 2018/08/02 11:26:36.306, End: 2018/08/02 11:26:36.313, Cost: 7.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[6504] INFO ****** Start: 2018/08/02 11:26:36.315, End: 2018/08/02 11:26:36.329, Cost: 14.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7737'
+[6504] INFO ****** Start: 2018/08/02 11:26:36.333, End: 2018/08/02 11:26:36.342, Cost: 9.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6504] INFO ****** Start: 2018/08/02 11:26:36.344, End: 2018/08/02 11:26:36.352, Cost: 8.000
+[6504] INFO 
+[6504] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='112640',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='112640',rescode='BZ02',logindate='20180802',jigcode='',logintime='112636' WHERE serial='7737'
+[6504] INFO ****** Start: 2018/08/02 11:26:36.355, End: 2018/08/02 11:26:36.367, Cost: 12.000
+[6504] INFO 
+[6504] INFO ****** Open Connection
+[6504] INFO ****** Start: 2018/08/02 11:26:36.371, End: 2018/08/02 11:26:36.371, Cost: 0.000
+[6504] INFO 
+[6504] INFO ****** Execute SQL
+[6504] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[6504] INFO ****** Start: 2018/08/02 11:26:36.371, End: 2018/08/02 11:26:36.380, Cost: 9.000
+[6504] INFO 
+[6504] INFO ****** Close Connection
+[6504] INFO ****** Start: 2018/08/02 11:26:36.381, End: 2018/08/02 11:26:36.381, Cost: 0.000
+[6504] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[4008] INFO ****** Open Connection
+[4008] INFO ****** Start: 2018/08/02 11:26:42.577, End: 2018/08/02 11:26:42.829, Cost: 252.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[4008] INFO ****** Start: 2018/08/02 11:26:42.945, End: 2018/08/02 11:26:42.955, Cost: 10.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[4008] INFO ****** Start: 2018/08/02 11:26:42.959, End: 2018/08/02 11:26:42.968, Cost: 9.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[4008] INFO ****** Start: 2018/08/02 11:26:42.973, End: 2018/08/02 11:26:42.980, Cost: 7.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4008] INFO ****** Start: 2018/08/02 11:26:42.981, End: 2018/08/02 11:26:42.989, Cost: 8.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[4008] INFO ****** Start: 2018/08/02 11:26:42.990, End: 2018/08/02 11:26:42.998, Cost: 8.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[4008] INFO ****** Start: 2018/08/02 11:26:42.999, End: 2018/08/02 11:26:43.007, Cost: 8.000
+[4008] INFO 
+[4008] INFO ****** Open Connection
+[4008] INFO ****** Start: 2018/08/02 11:26:43.062, End: 2018/08/02 11:26:43.211, Cost: 149.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4008] INFO ****** Start: 2018/08/02 11:26:43.212, End: 2018/08/02 11:26:43.243, Cost: 31.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4008] INFO ****** Start: 2018/08/02 11:26:43.248, End: 2018/08/02 11:26:43.258, Cost: 10.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4008] INFO ****** Start: 2018/08/02 11:26:43.272, End: 2018/08/02 11:26:43.283, Cost: 11.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4008] INFO ****** Start: 2018/08/02 11:26:43.287, End: 2018/08/02 11:26:43.296, Cost: 9.000
+[4008] INFO 
+[4008] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='112647',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[4008] INFO ****** Start: 2018/08/02 11:26:43.309, End: 2018/08/02 11:26:43.321, Cost: 12.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4008] INFO ****** Start: 2018/08/02 11:26:43.321, End: 2018/08/02 11:26:43.330, Cost: 9.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[4008] INFO ****** Start: 2018/08/02 11:26:43.335, End: 2018/08/02 11:26:43.346, Cost: 11.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4008] INFO ****** Start: 2018/08/02 11:26:43.347, End: 2018/08/02 11:26:43.354, Cost: 7.000
+[4008] INFO 
+[4008] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','112647','BZ02','20180802','0','','112647')
+[4008] INFO ****** Start: 2018/08/02 11:26:43.358, End: 2018/08/02 11:26:43.367, Cost: 9.000
+[4008] INFO 
+[4008] INFO ****** Open Connection
+[4008] INFO ****** Start: 2018/08/02 11:26:43.373, End: 2018/08/02 11:26:43.565, Cost: 192.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[4008] INFO ****** Start: 2018/08/02 11:26:43.565, End: 2018/08/02 11:26:43.575, Cost: 10.000
+[4008] INFO 
+[4008] INFO ****** Close Connection
+[4008] INFO ****** Start: 2018/08/02 11:26:43.578, End: 2018/08/02 11:26:43.578, Cost: 0.000
+[4008] INFO 
+[4008] INFO ****** Open Connection
+[4008] INFO ****** Start: 2018/08/02 11:26:51.056, End: 2018/08/02 11:26:51.057, Cost: 1.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4008] INFO ****** Start: 2018/08/02 11:26:51.057, End: 2018/08/02 11:26:51.068, Cost: 11.000
+[4008] INFO 
+[4008] INFO ****** Open Connection
+[4008] INFO ****** Start: 2018/08/02 11:26:51.083, End: 2018/08/02 11:26:51.234, Cost: 151.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4008] INFO ****** Start: 2018/08/02 11:26:51.234, End: 2018/08/02 11:26:51.260, Cost: 26.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4008] INFO ****** Start: 2018/08/02 11:26:51.263, End: 2018/08/02 11:26:51.271, Cost: 8.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4008] INFO ****** Start: 2018/08/02 11:26:51.276, End: 2018/08/02 11:26:51.305, Cost: 29.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4008] INFO ****** Start: 2018/08/02 11:26:51.307, End: 2018/08/02 11:26:51.325, Cost: 18.000
+[4008] INFO 
+[4008] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='112655',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[4008] INFO ****** Start: 2018/08/02 11:26:51.329, End: 2018/08/02 11:26:51.338, Cost: 9.000
+[4008] INFO 
+[4008] INFO ****** Open Connection
+[4008] INFO ****** Start: 2018/08/02 11:26:51.341, End: 2018/08/02 11:26:51.341, Cost: 0.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4008] INFO ****** Start: 2018/08/02 11:26:51.341, End: 2018/08/02 11:26:51.350, Cost: 9.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[4008] INFO ****** Start: 2018/08/02 11:26:51.352, End: 2018/08/02 11:26:51.372, Cost: 20.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7738'
+[4008] INFO ****** Start: 2018/08/02 11:26:51.375, End: 2018/08/02 11:26:51.384, Cost: 9.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4008] INFO ****** Start: 2018/08/02 11:26:51.387, End: 2018/08/02 11:26:51.397, Cost: 10.000
+[4008] INFO 
+[4008] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='112655',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='112655',rescode='BZ02',logindate='20180802',jigcode='',logintime='112647' WHERE serial='7738'
+[4008] INFO ****** Start: 2018/08/02 11:26:51.399, End: 2018/08/02 11:26:51.408, Cost: 9.000
+[4008] INFO 
+[4008] INFO ****** Open Connection
+[4008] INFO ****** Start: 2018/08/02 11:26:51.411, End: 2018/08/02 11:26:51.411, Cost: 0.000
+[4008] INFO 
+[4008] INFO ****** Execute SQL
+[4008] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[4008] INFO ****** Start: 2018/08/02 11:26:51.412, End: 2018/08/02 11:26:51.420, Cost: 8.000
+[4008] INFO 
+[4008] INFO ****** Close Connection
+[4008] INFO ****** Start: 2018/08/02 11:26:51.421, End: 2018/08/02 11:26:51.421, Cost: 0.000
+[4008] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[6040] INFO ****** Open Connection
+[6040] INFO ****** Start: 2018/08/02 11:27:08.814, End: 2018/08/02 11:27:09.052, Cost: 238.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.167, End: 2018/08/02 11:27:09.177, Cost: 10.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.182, End: 2018/08/02 11:27:09.188, Cost: 6.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6040] INFO ****** Start: 2018/08/02 11:27:09.193, End: 2018/08/02 11:27:09.201, Cost: 8.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.202, End: 2018/08/02 11:27:09.210, Cost: 8.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6040] INFO ****** Start: 2018/08/02 11:27:09.211, End: 2018/08/02 11:27:09.219, Cost: 8.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.220, End: 2018/08/02 11:27:09.226, Cost: 6.000
+[6040] INFO 
+[6040] INFO ****** Open Connection
+[6040] INFO ****** Start: 2018/08/02 11:27:09.281, End: 2018/08/02 11:27:09.416, Cost: 135.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.416, End: 2018/08/02 11:27:09.427, Cost: 11.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.430, End: 2018/08/02 11:27:09.446, Cost: 16.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.455, End: 2018/08/02 11:27:09.463, Cost: 8.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.466, End: 2018/08/02 11:27:09.473, Cost: 7.000
+[6040] INFO 
+[6040] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='112713',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.483, End: 2018/08/02 11:27:09.493, Cost: 10.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.493, End: 2018/08/02 11:27:09.500, Cost: 7.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.504, End: 2018/08/02 11:27:09.514, Cost: 10.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6040] INFO ****** Start: 2018/08/02 11:27:09.515, End: 2018/08/02 11:27:09.523, Cost: 8.000
+[6040] INFO 
+[6040] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','112713','BZ02','20180802','0','','112713')
+[6040] INFO ****** Start: 2018/08/02 11:27:09.526, End: 2018/08/02 11:27:09.533, Cost: 7.000
+[6040] INFO 
+[6040] INFO ****** Open Connection
+[6040] INFO ****** Start: 2018/08/02 11:27:09.538, End: 2018/08/02 11:27:09.679, Cost: 141.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[6040] INFO ****** Start: 2018/08/02 11:27:09.680, End: 2018/08/02 11:27:09.688, Cost: 8.000
+[6040] INFO 
+[6040] INFO ****** Close Connection
+[6040] INFO ****** Start: 2018/08/02 11:27:09.691, End: 2018/08/02 11:27:09.692, Cost: 1.000
+[6040] INFO 
+[6040] INFO ****** Open Connection
+[6040] INFO ****** Start: 2018/08/02 11:27:27.616, End: 2018/08/02 11:27:27.617, Cost: 1.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6040] INFO ****** Start: 2018/08/02 11:27:27.618, End: 2018/08/02 11:27:27.650, Cost: 32.000
+[6040] INFO 
+[6040] INFO ****** Open Connection
+[6040] INFO ****** Start: 2018/08/02 11:27:27.657, End: 2018/08/02 11:27:27.939, Cost: 282.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6040] INFO ****** Start: 2018/08/02 11:27:27.940, End: 2018/08/02 11:27:27.953, Cost: 13.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6040] INFO ****** Start: 2018/08/02 11:27:27.955, End: 2018/08/02 11:27:27.965, Cost: 10.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6040] INFO ****** Start: 2018/08/02 11:27:27.969, End: 2018/08/02 11:27:28.048, Cost: 79.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6040] INFO ****** Start: 2018/08/02 11:27:28.050, End: 2018/08/02 11:27:28.058, Cost: 8.000
+[6040] INFO 
+[6040] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='112732',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6040] INFO ****** Start: 2018/08/02 11:27:28.062, End: 2018/08/02 11:27:28.071, Cost: 9.000
+[6040] INFO 
+[6040] INFO ****** Open Connection
+[6040] INFO ****** Start: 2018/08/02 11:27:28.074, End: 2018/08/02 11:27:28.075, Cost: 1.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6040] INFO ****** Start: 2018/08/02 11:27:28.075, End: 2018/08/02 11:27:28.083, Cost: 8.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[6040] INFO ****** Start: 2018/08/02 11:27:28.085, End: 2018/08/02 11:27:28.096, Cost: 11.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7739'
+[6040] INFO ****** Start: 2018/08/02 11:27:28.100, End: 2018/08/02 11:27:28.112, Cost: 12.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6040] INFO ****** Start: 2018/08/02 11:27:28.115, End: 2018/08/02 11:27:28.122, Cost: 7.000
+[6040] INFO 
+[6040] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='112732',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='112732',rescode='BZ02',logindate='20180802',jigcode='',logintime='112713' WHERE serial='7739'
+[6040] INFO ****** Start: 2018/08/02 11:27:28.125, End: 2018/08/02 11:27:28.140, Cost: 15.000
+[6040] INFO 
+[6040] INFO ****** Open Connection
+[6040] INFO ****** Start: 2018/08/02 11:27:28.144, End: 2018/08/02 11:27:28.144, Cost: 0.000
+[6040] INFO 
+[6040] INFO ****** Execute SQL
+[6040] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[6040] INFO ****** Start: 2018/08/02 11:27:28.145, End: 2018/08/02 11:27:28.152, Cost: 7.000
+[6040] INFO 
+[6040] INFO ****** Close Connection
+[6040] INFO ****** Start: 2018/08/02 11:27:28.154, End: 2018/08/02 11:27:28.154, Cost: 0.000
+[6040] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[6768] INFO ****** Open Connection
+[6768] INFO ****** Start: 2018/08/02 11:39:51.926, End: 2018/08/02 11:39:52.137, Cost: 211.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.211, End: 2018/08/02 11:39:52.223, Cost: 12.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.228, End: 2018/08/02 11:39:52.237, Cost: 9.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6768] INFO ****** Start: 2018/08/02 11:39:52.242, End: 2018/08/02 11:39:52.249, Cost: 7.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.251, End: 2018/08/02 11:39:52.260, Cost: 9.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[6768] INFO ****** Start: 2018/08/02 11:39:52.261, End: 2018/08/02 11:39:52.269, Cost: 8.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.270, End: 2018/08/02 11:39:52.281, Cost: 11.000
+[6768] INFO 
+[6768] INFO ****** Open Connection
+[6768] INFO ****** Start: 2018/08/02 11:39:52.338, End: 2018/08/02 11:39:52.445, Cost: 107.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.445, End: 2018/08/02 11:39:52.456, Cost: 11.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.461, End: 2018/08/02 11:39:52.471, Cost: 10.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.485, End: 2018/08/02 11:39:52.496, Cost: 11.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.500, End: 2018/08/02 11:39:52.508, Cost: 8.000
+[6768] INFO 
+[6768] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='113956',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.515, End: 2018/08/02 11:39:52.526, Cost: 11.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.526, End: 2018/08/02 11:39:52.534, Cost: 8.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.537, End: 2018/08/02 11:39:52.547, Cost: 10.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6768] INFO ****** Start: 2018/08/02 11:39:52.547, End: 2018/08/02 11:39:52.555, Cost: 8.000
+[6768] INFO 
+[6768] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','113956','BZ02','20180802','0','','113956')
+[6768] INFO ****** Start: 2018/08/02 11:39:52.557, End: 2018/08/02 11:39:52.564, Cost: 7.000
+[6768] INFO 
+[6768] INFO ****** Open Connection
+[6768] INFO ****** Start: 2018/08/02 11:39:52.567, End: 2018/08/02 11:39:52.664, Cost: 97.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[6768] INFO ****** Start: 2018/08/02 11:39:52.665, End: 2018/08/02 11:39:52.679, Cost: 14.000
+[6768] INFO 
+[6768] INFO ****** Close Connection
+[6768] INFO ****** Start: 2018/08/02 11:39:52.681, End: 2018/08/02 11:39:52.682, Cost: 1.000
+[6768] INFO 
+[6768] INFO ****** Open Connection
+[6768] INFO ****** Start: 2018/08/02 11:41:43.544, End: 2018/08/02 11:41:43.547, Cost: 3.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6768] INFO ****** Start: 2018/08/02 11:41:43.548, End: 2018/08/02 11:41:43.561, Cost: 13.000
+[6768] INFO 
+[6768] INFO ****** Open Connection
+[6768] INFO ****** Start: 2018/08/02 11:41:43.568, End: 2018/08/02 11:41:43.568, Cost: 0.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6768] INFO ****** Start: 2018/08/02 11:41:43.568, End: 2018/08/02 11:41:43.579, Cost: 11.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6768] INFO ****** Start: 2018/08/02 11:41:43.581, End: 2018/08/02 11:41:43.588, Cost: 7.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[6768] INFO ****** Start: 2018/08/02 11:41:43.591, End: 2018/08/02 11:41:43.614, Cost: 23.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6768] INFO ****** Start: 2018/08/02 11:41:43.615, End: 2018/08/02 11:41:43.622, Cost: 7.000
+[6768] INFO 
+[6768] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='114147',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[6768] INFO ****** Start: 2018/08/02 11:41:43.624, End: 2018/08/02 11:41:43.631, Cost: 7.000
+[6768] INFO 
+[6768] INFO ****** Open Connection
+[6768] INFO ****** Start: 2018/08/02 11:41:43.633, End: 2018/08/02 11:41:43.740, Cost: 107.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6768] INFO ****** Start: 2018/08/02 11:41:43.741, End: 2018/08/02 11:41:43.749, Cost: 8.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[6768] INFO ****** Start: 2018/08/02 11:41:43.751, End: 2018/08/02 11:41:43.761, Cost: 10.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7744'
+[6768] INFO ****** Start: 2018/08/02 11:41:43.765, End: 2018/08/02 11:41:43.776, Cost: 11.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[6768] INFO ****** Start: 2018/08/02 11:41:43.778, End: 2018/08/02 11:41:43.784, Cost: 6.000
+[6768] INFO 
+[6768] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='114147',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='114148',rescode='BZ02',logindate='20180802',jigcode='',logintime='113956' WHERE serial='7744'
+[6768] INFO ****** Start: 2018/08/02 11:41:43.786, End: 2018/08/02 11:41:43.794, Cost: 8.000
+[6768] INFO 
+[6768] INFO ****** Open Connection
+[6768] INFO ****** Start: 2018/08/02 11:41:43.797, End: 2018/08/02 11:41:43.891, Cost: 94.000
+[6768] INFO 
+[6768] INFO ****** Execute SQL
+[6768] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[6768] INFO ****** Start: 2018/08/02 11:41:43.892, End: 2018/08/02 11:41:43.900, Cost: 8.000
+[6768] INFO 
+[6768] INFO ****** Close Connection
+[6768] INFO ****** Start: 2018/08/02 11:41:43.902, End: 2018/08/02 11:41:43.902, Cost: 0.000
+[6768] INFO 
+[Footer]
+[Header]
+[Footer]
+[Header]
+[4224] INFO ****** Open Connection
+[4224] INFO ****** Start: 2018/08/02 11:42:28.378, End: 2018/08/02 11:42:28.601, Cost: 223.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[4224] INFO ****** Start: 2018/08/02 11:42:28.694, End: 2018/08/02 11:42:28.707, Cost: 13.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+[4224] INFO ****** Start: 2018/08/02 11:42:28.712, End: 2018/08/02 11:42:28.718, Cost: 6.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[4224] INFO ****** Start: 2018/08/02 11:42:28.724, End: 2018/08/02 11:42:28.731, Cost: 7.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4224] INFO ****** Start: 2018/08/02 11:42:28.733, End: 2018/08/02 11:42:28.741, Cost: 8.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+[4224] INFO ****** Start: 2018/08/02 11:42:28.742, End: 2018/08/02 11:42:28.748, Cost: 6.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+[4224] INFO ****** Start: 2018/08/02 11:42:28.750, End: 2018/08/02 11:42:28.757, Cost: 7.000
+[4224] INFO 
+[4224] INFO ****** Open Connection
+[4224] INFO ****** Start: 2018/08/02 11:42:28.824, End: 2018/08/02 11:42:28.925, Cost: 101.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4224] INFO ****** Start: 2018/08/02 11:42:28.926, End: 2018/08/02 11:42:28.936, Cost: 10.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4224] INFO ****** Start: 2018/08/02 11:42:28.941, End: 2018/08/02 11:42:28.951, Cost: 10.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4224] INFO ****** Start: 2018/08/02 11:42:28.960, End: 2018/08/02 11:42:28.968, Cost: 8.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4224] INFO ****** Start: 2018/08/02 11:42:28.970, End: 2018/08/02 11:42:28.976, Cost: 6.000
+[4224] INFO 
+[4224] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='114233',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[4224] INFO ****** Start: 2018/08/02 11:42:28.982, End: 2018/08/02 11:42:28.990, Cost: 8.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4224] INFO ****** Start: 2018/08/02 11:42:28.990, End: 2018/08/02 11:42:28.997, Cost: 7.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+[4224] INFO ****** Start: 2018/08/02 11:42:29.000, End: 2018/08/02 11:42:29.006, Cost: 6.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4224] INFO ****** Start: 2018/08/02 11:42:29.007, End: 2018/08/02 11:42:29.014, Cost: 7.000
+[4224] INFO 
+[4224] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180802','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','114233','BZ02','20180802','0','','114233')
+[4224] INFO ****** Start: 2018/08/02 11:42:29.016, End: 2018/08/02 11:42:29.023, Cost: 7.000
+[4224] INFO 
+[4224] INFO ****** Open Connection
+[4224] INFO ****** Start: 2018/08/02 11:42:29.026, End: 2018/08/02 11:42:29.143, Cost: 117.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+[4224] INFO ****** Start: 2018/08/02 11:42:29.144, End: 2018/08/02 11:42:29.153, Cost: 9.000
+[4224] INFO 
+[4224] INFO ****** Close Connection
+[4224] INFO ****** Start: 2018/08/02 11:42:29.156, End: 2018/08/02 11:42:29.157, Cost: 1.000
+[4224] INFO 
+[4224] INFO ****** Open Connection
+[4224] INFO ****** Start: 2018/08/02 11:43:01.616, End: 2018/08/02 11:43:01.617, Cost: 1.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4224] INFO ****** Start: 2018/08/02 11:43:01.617, End: 2018/08/02 11:43:01.626, Cost: 9.000
+[4224] INFO 
+[4224] INFO ****** Open Connection
+[4224] INFO ****** Start: 2018/08/02 11:43:01.631, End: 2018/08/02 11:43:01.631, Cost: 0.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4224] INFO ****** Start: 2018/08/02 11:43:01.631, End: 2018/08/02 11:43:01.641, Cost: 10.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4224] INFO ****** Start: 2018/08/02 11:43:01.643, End: 2018/08/02 11:43:01.651, Cost: 8.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02'
+[4224] INFO ****** Start: 2018/08/02 11:43:01.654, End: 2018/08/02 11:43:01.664, Cost: 10.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4224] INFO ****** Start: 2018/08/02 11:43:01.666, End: 2018/08/02 11:43:01.673, Cost: 7.000
+[4224] INFO 
+[4224] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='DAY',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='114305',eattribute1='',reworkcode='',mdate='20180802',resdesc='包装-功能测试',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK01' WHERE rescode='BZ02'
+[4224] INFO ****** Start: 2018/08/02 11:43:01.675, End: 2018/08/02 11:43:01.683, Cost: 8.000
+[4224] INFO 
+[4224] INFO ****** Open Connection
+[4224] INFO ****** Start: 2018/08/02 11:43:01.685, End: 2018/08/02 11:43:01.685, Cost: 0.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4224] INFO ****** Start: 2018/08/02 11:43:01.685, End: 2018/08/02 11:43:01.692, Cost: 7.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02'                                 group by rescode                             ) 
+[4224] INFO ****** Start: 2018/08/02 11:43:01.694, End: 2018/08/02 11:43:01.702, Cost: 8.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='7746'
+[4224] INFO ****** Start: 2018/08/02 11:43:01.705, End: 2018/08/02 11:43:01.713, Cost: 8.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+[4224] INFO ****** Start: 2018/08/02 11:43:01.714, End: 2018/08/02 11:43:01.720, Cost: 6.000
+[4224] INFO 
+[4224] ERROR未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\dblog.xml”。
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180802',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180802',releasetime='114305',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='114305',rescode='BZ02',logindate='20180802',jigcode='',logintime='114233' WHERE serial='7746'
+[4224] INFO ****** Start: 2018/08/02 11:43:01.722, End: 2018/08/02 11:43:01.732, Cost: 10.000
+[4224] INFO 
+[4224] INFO ****** Open Connection
+[4224] INFO ****** Start: 2018/08/02 11:43:01.735, End: 2018/08/02 11:43:01.845, Cost: 110.000
+[4224] INFO 
+[4224] INFO ****** Execute SQL
+[4224] INFO ****** Text : select * from tbljig where rescode='BZ02'
+[4224] INFO ****** Start: 2018/08/02 11:43:01.845, End: 2018/08/02 11:43:01.855, Cost: 10.000
+[4224] INFO 
+[4224] INFO ****** Close Connection
+[4224] INFO ****** Start: 2018/08/02 11:43:01.856, End: 2018/08/02 11:43:01.856, Cost: 0.000
+[4224] INFO 
+[Footer]

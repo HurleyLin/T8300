@@ -1,0 +1,294 @@
+[Header]
+[Footer]
+[Header]
+2018-08-15 11:31:03,072 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:31:03,099 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:30:58.271, End: 2018/08/15 11:31:02.793, Cost: 4522.000
+2018-08-15 11:31:03,099 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:03,246 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:03,246 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+2018-08-15 11:31:03,246 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:03.112, End: 2018/08/15 11:31:03.246, Cost: 134.000
+2018-08-15 11:31:03,246 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:03,271 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:03,271 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+2018-08-15 11:31:03,271 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:03.263, End: 2018/08/15 11:31:03.271, Cost: 8.000
+2018-08-15 11:31:03,271 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:03,334 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:03,334 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+2018-08-15 11:31:03,334 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:03.301, End: 2018/08/15 11:31:03.334, Cost: 33.000
+2018-08-15 11:31:03,334 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:03,364 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:03,364 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:31:03,364 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:03.354, End: 2018/08/15 11:31:03.364, Cost: 10.000
+2018-08-15 11:31:03,364 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:03,375 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:03,375 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+2018-08-15 11:31:03,376 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:03.366, End: 2018/08/15 11:31:03.375, Cost: 9.000
+2018-08-15 11:31:03,376 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:03,387 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:03,387 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+2018-08-15 11:31:03,387 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:03.378, End: 2018/08/15 11:31:03.387, Cost: 9.000
+2018-08-15 11:31:03,387 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,110 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:31:04,111 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:03.969, End: 2018/08/15 11:31:04.110, Cost: 141.000
+2018-08-15 11:31:04,111 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,121 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:04,121 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:31:04,121 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.111, End: 2018/08/15 11:31:04.121, Cost: 10.000
+2018-08-15 11:31:04,121 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,135 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:04,135 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:31:04,135 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.125, End: 2018/08/15 11:31:04.135, Cost: 10.000
+2018-08-15 11:31:04,135 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,166 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:04,166 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:31:04,166 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.154, End: 2018/08/15 11:31:04.166, Cost: 12.000
+2018-08-15 11:31:04,166 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,178 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:04,178 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:31:04,178 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.168, End: 2018/08/15 11:31:04.178, Cost: 10.000
+2018-08-15 11:31:04,178 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,219 | 6912 | ERROR | BenQGuru.eMES.Common.Log | {@}	未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\dblog.xml”。
+2018-08-15 11:31:04,228 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:04,228 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='NIGHT',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='113106',eattribute1='',reworkcode='',mdate='20180815',resdesc='包装-功能测试（晚班）',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK02' WHERE rescode='BZ02-N'
+2018-08-15 11:31:04,228 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.204, End: 2018/08/15 11:31:04.228, Cost: 24.000
+2018-08-15 11:31:04,228 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,237 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:04,237 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:31:04,237 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.228, End: 2018/08/15 11:31:04.237, Cost: 9.000
+2018-08-15 11:31:04,237 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,251 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:04,251 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+2018-08-15 11:31:04,251 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.241, End: 2018/08/15 11:31:04.251, Cost: 10.000
+2018-08-15 11:31:04,251 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,260 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:04,260 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:31:04,260 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.252, End: 2018/08/15 11:31:04.260, Cost: 8.000
+2018-08-15 11:31:04,260 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,263 | 6912 | ERROR | BenQGuru.eMES.Common.Log | {@}	未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\dblog.xml”。
+2018-08-15 11:31:04,309 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:04,309 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180815','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','113107','BZ02-N','20180815','0','','113107')
+2018-08-15 11:31:04,309 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.263, End: 2018/08/15 11:31:04.309, Cost: 46.000
+2018-08-15 11:31:04,309 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,453 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:31:04,454 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.323, End: 2018/08/15 11:31:04.453, Cost: 130.000
+2018-08-15 11:31:04,454 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,464 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:04,464 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+2018-08-15 11:31:04,464 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.454, End: 2018/08/15 11:31:04.464, Cost: 10.000
+2018-08-15 11:31:04,464 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:04,467 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Close Connection
+2018-08-15 11:31:04,467 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:04.466, End: 2018/08/15 11:31:04.467, Cost: 1.000
+2018-08-15 11:31:04,467 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,261 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:31:08,261 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.245, End: 2018/08/15 11:31:08.261, Cost: 16.000
+2018-08-15 11:31:08,261 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,272 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,272 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:31:08,272 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.262, End: 2018/08/15 11:31:08.272, Cost: 10.000
+2018-08-15 11:31:08,273 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,494 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:31:08,495 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.327, End: 2018/08/15 11:31:08.494, Cost: 167.000
+2018-08-15 11:31:08,495 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,522 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,523 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:31:08,523 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.495, End: 2018/08/15 11:31:08.522, Cost: 27.000
+2018-08-15 11:31:08,523 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,535 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,535 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:31:08,535 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.525, End: 2018/08/15 11:31:08.535, Cost: 10.000
+2018-08-15 11:31:08,535 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,552 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,552 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:31:08,552 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.539, End: 2018/08/15 11:31:08.552, Cost: 13.000
+2018-08-15 11:31:08,552 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,563 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,563 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:31:08,563 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.554, End: 2018/08/15 11:31:08.563, Cost: 9.000
+2018-08-15 11:31:08,563 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,567 | 6912 | ERROR | BenQGuru.eMES.Common.Log | {@}	未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\dblog.xml”。
+2018-08-15 11:31:08,577 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,577 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='NIGHT',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='113111',eattribute1='',reworkcode='',mdate='20180815',resdesc='包装-功能测试（晚班）',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK02' WHERE rescode='BZ02-N'
+2018-08-15 11:31:08,577 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.567, End: 2018/08/15 11:31:08.577, Cost: 10.000
+2018-08-15 11:31:08,577 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,580 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:31:08,580 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.580, End: 2018/08/15 11:31:08.580, Cost: 0.000
+2018-08-15 11:31:08,580 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,593 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,593 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:31:08,593 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.580, End: 2018/08/15 11:31:08.593, Cost: 13.000
+2018-08-15 11:31:08,593 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,722 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,722 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02-N'                                 group by rescode                             ) 
+2018-08-15 11:31:08,722 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.604, End: 2018/08/15 11:31:08.722, Cost: 118.000
+2018-08-15 11:31:08,722 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,736 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,736 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='8115'
+2018-08-15 11:31:08,736 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.726, End: 2018/08/15 11:31:08.736, Cost: 10.000
+2018-08-15 11:31:08,737 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,749 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,749 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:31:08,749 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.738, End: 2018/08/15 11:31:08.749, Cost: 11.000
+2018-08-15 11:31:08,749 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,752 | 6912 | ERROR | BenQGuru.eMES.Common.Log | {@}	未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\dblog.xml”。
+2018-08-15 11:31:08,762 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,762 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180815',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180815',releasetime='113111',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='113111',rescode='BZ02-N',logindate='20180815',jigcode='',logintime='113107' WHERE serial='8115'
+2018-08-15 11:31:08,762 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.752, End: 2018/08/15 11:31:08.762, Cost: 10.000
+2018-08-15 11:31:08,762 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,791 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:31:08,791 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.791, End: 2018/08/15 11:31:08.791, Cost: 0.000
+2018-08-15 11:31:08,791 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,799 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:31:08,799 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select * from tbljig where rescode='BZ02-N'
+2018-08-15 11:31:08,800 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.791, End: 2018/08/15 11:31:08.799, Cost: 8.000
+2018-08-15 11:31:08,800 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:31:08,800 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Close Connection
+2018-08-15 11:31:08,800 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:31:08.800, End: 2018/08/15 11:31:08.800, Cost: 0.000
+2018-08-15 11:31:08,800 | 6912 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+[Footer]
+[Header]
+[Footer]
+[Header]
+2018-08-15 11:36:53,619 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:36:53,659 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.259, End: 2018/08/15 11:36:53.542, Cost: 283.000
+2018-08-15 11:36:53,659 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,670 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,670 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+2018-08-15 11:36:53,670 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.660, End: 2018/08/15 11:36:53.670, Cost: 10.000
+2018-08-15 11:36:53,670 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,682 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,682 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT useremail,userstat,mdate,username,userdepart,userpwd,usertel,usercode,eattribute1,muser,mtime FROM TBLUSER WHERE usercode='LILXL'
+2018-08-15 11:36:53,682 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.673, End: 2018/08/15 11:36:53.682, Cost: 9.000
+2018-08-15 11:36:53,682 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,697 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,697 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+2018-08-15 11:36:53,697 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.690, End: 2018/08/15 11:36:53.697, Cost: 7.000
+2018-08-15 11:36:53,697 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,706 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,706 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:36:53,706 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.698, End: 2018/08/15 11:36:53.706, Cost: 8.000
+2018-08-15 11:36:53,706 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,713 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,713 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select usergrouptype, mdate, usergroupdesc, usergroupcode, eattribute1, muser, mtime from TBLUSERGROUP where USERGROUPCODE in ( select USERGROUPCODE from TBLUSERGROUP2USER where USERCODE='LILXL')
+2018-08-15 11:36:53,713 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.707, End: 2018/08/15 11:36:53.713, Cost: 6.000
+2018-08-15 11:36:53,713 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,721 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,721 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT paramvalue,paramgroupcode,mdate,issys,eattribute1,paramalias,paramdesc,parentparam,paramcode,isactive,muser,mtime FROM TBLSYSPARAM WHERE paramgroupcode='RESBINDINGFLAG' AND paramcode='RESBINDINGFLAG'
+2018-08-15 11:36:53,721 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.714, End: 2018/08/15 11:36:53.721, Cost: 7.000
+2018-08-15 11:36:53,721 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,895 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:36:53,895 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.790, End: 2018/08/15 11:36:53.895, Cost: 105.000
+2018-08-15 11:36:53,895 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,905 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,905 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:36:53,905 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.895, End: 2018/08/15 11:36:53.905, Cost: 10.000
+2018-08-15 11:36:53,905 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,917 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,917 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:36:53,917 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.909, End: 2018/08/15 11:36:53.917, Cost: 8.000
+2018-08-15 11:36:53,917 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,933 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,933 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:36:53,934 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.925, End: 2018/08/15 11:36:53.933, Cost: 8.000
+2018-08-15 11:36:53,934 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,942 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,942 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:36:53,942 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.936, End: 2018/08/15 11:36:53.942, Cost: 6.000
+2018-08-15 11:36:53,942 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,952 | 7612 | ERROR | BenQGuru.eMES.Common.Log | {@}	未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\dblog.xml”。
+2018-08-15 11:36:53,962 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,962 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='NIGHT',computerip='192.168.3.100',muser='ADMIN',dctcode='',computermac='70:85:C2:41:EE:9D',computername='DVR-LINXIAOLIAN',crewcode='',mtime='113656',eattribute1='',reworkcode='',mdate='20180815',resdesc='包装-功能测试（晚班）',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK02' WHERE rescode='BZ02-N'
+2018-08-15 11:36:53,962 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.951, End: 2018/08/15 11:36:53.962, Cost: 11.000
+2018-08-15 11:36:53,962 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,973 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,973 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:36:53,973 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.962, End: 2018/08/15 11:36:53.973, Cost: 11.000
+2018-08-15 11:36:53,973 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,983 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,984 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='0'
+2018-08-15 11:36:53,984 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.976, End: 2018/08/15 11:36:53.983, Cost: 7.000
+2018-08-15 11:36:53,984 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,991 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:53,991 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:36:53,991 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.984, End: 2018/08/15 11:36:53.991, Cost: 7.000
+2018-08-15 11:36:53,991 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:53,994 | 7612 | ERROR | BenQGuru.eMES.Common.Log | {@}	未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\dblog.xml”。
+2018-08-15 11:36:54,002 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:54,002 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : INSERT INTO TBLRESRELEASELOG(computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime) VALUES ('70:85:C2:41:EE:9D','20180815','192.168.3.100','','0','0','LILXL','DVR-LINXIAOLIAN','LILXL','113656','BZ02-N','20180815','0','','113656')
+2018-08-15 11:36:54,002 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:53.994, End: 2018/08/15 11:36:54.002, Cost: 8.000
+2018-08-15 11:36:54,002 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:54,118 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:36:54,119 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:54.005, End: 2018/08/15 11:36:54.118, Cost: 113.000
+2018-08-15 11:36:54,119 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:54,128 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:54,128 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT maxmday,mdate,rescode,mtime,statuschgdate,opeuser,muser,retreason,totalcount,statuschgtime,useflag,statuschgreason,currunitqty,status,maintainuser,maintaintime,alertcount,eattribute1,usedcount,altermday,maxcount,jigspeccode,jigcode,maintaindate,sscode FROM TBLJIG WHERE jigcode=''
+2018-08-15 11:36:54,128 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:54.119, End: 2018/08/15 11:36:54.128, Cost: 9.000
+2018-08-15 11:36:54,128 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:54,130 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Close Connection
+2018-08-15 11:36:54,130 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:54.130, End: 2018/08/15 11:36:54.130, Cost: 0.000
+2018-08-15 11:36:54,130 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:55,902 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:36:55,902 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:55.901, End: 2018/08/15 11:36:55.902, Cost: 1.000
+2018-08-15 11:36:55,902 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:55,911 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:55,911 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:36:55,912 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:55.902, End: 2018/08/15 11:36:55.911, Cost: 9.000
+2018-08-15 11:36:55,912 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,115 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:36:56,115 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:55.925, End: 2018/08/15 11:36:56.115, Cost: 190.000
+2018-08-15 11:36:56,115 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,137 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:56,137 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:36:56,137 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.115, End: 2018/08/15 11:36:56.137, Cost: 22.000
+2018-08-15 11:36:56,137 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,152 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:56,152 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:36:56,152 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.139, End: 2018/08/15 11:36:56.152, Cost: 13.000
+2018-08-15 11:36:56,152 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,172 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:56,172 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT mdate,segcode,shifttypecode,reworkroutecode,computerip,muser,dctcode,computermac,computername,crewcode,orgid,mtime,eattribute1,reworkcode,rescode,resdesc,resgroup,restype,jigcontrol,sscode FROM TBLRES WHERE rescode='BZ02-N'
+2018-08-15 11:36:56,172 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.156, End: 2018/08/15 11:36:56.172, Cost: 16.000
+2018-08-15 11:36:56,172 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,181 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:56,181 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:36:56,181 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.174, End: 2018/08/15 11:36:56.181, Cost: 7.000
+2018-08-15 11:36:56,182 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,185 | 7612 | ERROR | BenQGuru.eMES.Common.Log | {@}	未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\dblog.xml”。
+2018-08-15 11:36:56,193 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:56,193 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : UPDATE TBLRES SET orgid='1',segcode='AP',reworkroutecode='',shifttypecode='NIGHT',computerip='',muser='ADMIN',dctcode='',computermac='',computername='',crewcode='',mtime='113658',eattribute1='',reworkcode='',mdate='20180815',resdesc='包装-功能测试（晚班）',resgroup='',restype='ResourceType_Human',jigcontrol='N',sscode='PACK02' WHERE rescode='BZ02-N'
+2018-08-15 11:36:56,193 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.185, End: 2018/08/15 11:36:56.193, Cost: 8.000
+2018-08-15 11:36:56,193 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,196 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:36:56,196 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.196, End: 2018/08/15 11:36:56.196, Cost: 0.000
+2018-08-15 11:36:56,196 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,208 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:56,208 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:36:56,208 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.197, End: 2018/08/15 11:36:56.208, Cost: 11.000
+2018-08-15 11:36:56,208 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,219 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:56,219 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select a.*                              from  tblresreleaselog a                              where a.serial in                              (                                 select max(serial)                                 from tblresreleaselog                                 where rescode='BZ02-N'                                 group by rescode                             ) 
+2018-08-15 11:36:56,219 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.210, End: 2018/08/15 11:36:56.219, Cost: 9.000
+2018-08-15 11:36:56,220 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,232 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:56,232 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : SELECT computermac,mdate,computerip,releaseuser,releasedate,releasetime,loginuser,computername,muser,mtime,rescode,logindate,serial,jigcode,logintime FROM TBLRESRELEASELOG WHERE serial='8116'
+2018-08-15 11:36:56,232 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.223, End: 2018/08/15 11:36:56.232, Cost: 9.000
+2018-08-15 11:36:56,232 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,251 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:56,251 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select to_char(sysdate,'yyyymmdd') as dbdate,to_char(sysdate,'hh24miss')  as dbtime from dual where '1' = '1'
+2018-08-15 11:36:56,251 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.234, End: 2018/08/15 11:36:56.251, Cost: 17.000
+2018-08-15 11:36:56,251 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,255 | 7612 | ERROR | BenQGuru.eMES.Common.Log | {@}	未能找到文件“C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\dblog.xml”。
+2018-08-15 11:36:56,273 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:56,273 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : UPDATE TBLRESRELEASELOG SET computermac='70:85:C2:41:EE:9D',mdate='20180815',computerip='192.168.3.100',releaseuser='DLL',releasedate='20180815',releasetime='113659',loginuser='LILXL',computername='DVR-LINXIAOLIAN',muser='DLL',mtime='113659',rescode='BZ02-N',logindate='20180815',jigcode='',logintime='113656' WHERE serial='8116'
+2018-08-15 11:36:56,273 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.254, End: 2018/08/15 11:36:56.273, Cost: 19.000
+2018-08-15 11:36:56,273 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,277 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Open Connection
+2018-08-15 11:36:56,277 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.277, End: 2018/08/15 11:36:56.277, Cost: 0.000
+2018-08-15 11:36:56,277 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,289 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Execute SQL
+2018-08-15 11:36:56,289 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Text : select * from tbljig where rescode='BZ02-N'
+2018-08-15 11:36:56,289 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.277, End: 2018/08/15 11:36:56.289, Cost: 12.000
+2018-08-15 11:36:56,289 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+2018-08-15 11:36:56,290 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Close Connection
+2018-08-15 11:36:56,290 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	****** Start: 2018/08/15 11:36:56.290, End: 2018/08/15 11:36:56.290, Cost: 0.000
+2018-08-15 11:36:56,290 | 7612 | INFO  | BenQGuru.eMES.Common.Log | {@}	
+[Footer]

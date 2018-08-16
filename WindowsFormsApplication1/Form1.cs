@@ -26,6 +26,8 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
+
+            //关联closing事件
             this.FormClosing += new FormClosingEventHandler(this.Form1_FormClosing);
 
             string filePath;            
@@ -566,9 +568,9 @@ namespace WindowsFormsApplication1
             }
 
             //收集错误码
-            Collecting_Errors(out ErrMessage);
+            Collecting_Errors(out ErrCode);
             //textBox1.Text = ErrMessage;
-            if (ErrMessage == "")
+            if (ErrCode == "")
             {
                 Result = "OK";
             }
